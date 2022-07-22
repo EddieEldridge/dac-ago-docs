@@ -1,4 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'DaC: AI and Gameplay Overhaul'
-theme = "ananke"
+title = "DaC: AGO"
+theme = "hyde"
+
+[params]
+  description = "A submod for Third Age: Total war - Divide and Conquer"
