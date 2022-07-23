@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = "Divide and Conquer: AGO"
+title = "Divide and Conquer: AI and Gameplay Overhaul"
 theme = "hyde"
 
 [params]
