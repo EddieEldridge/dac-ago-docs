@@ -66,7 +66,6 @@ html {
     left: 0;
     bottom: 0;
     width: 18rem;
-    text-align: left;
   }
 }
 
@@ -98,7 +97,6 @@ html {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
-  color: black
 }
 .sidebar-nav-item.active {
   font-weight: bold;
@@ -106,13 +104,12 @@ a.sidebar-nav-item:focus {
 .sidebar-nav a {
   font-size: 50px;
   color: #ffb144;
-  padding-top: 50px;
 }
 
 .sidebar-bottom {
   padding: 5px;
   text-align: center;
-  padding-top: 50%;
+  padding-top: 75%;
   padding-bottom: 2vh;
   font-style: italic;
 }
@@ -158,10 +155,11 @@ a.sidebar-nav-item:focus {
 
 .content {
     background-color: rgb(34, 34, 34);
+    border: 20px solid  #000000f8;
 }
 
 .homepage-background {
-  border: 20px solid  #000000f8;
+  /* border: 20px solid  #000000f8; */
   /* border: 20px solid  #000000f8; */
   /* background-image: url("https://i.imgur.com/CyGOhqC.jpg"); */
   /* position: relative; */
@@ -176,6 +174,7 @@ a.sidebar-nav-item:focus {
   font-size: 1vw;
   color: black;
   margin-bottom: 100px;
+  height: 100em;
   /* padding: 1em; */
   /* margin:auto; */
   /* width: 25vw; */
@@ -222,4 +221,38 @@ a.sidebar-nav-item:focus {
 
 .sidebar {
   border: 20px solid  #000000;
+}
+
+/* List Items */
+.posts {
+  color: black
+}
+
+.posts a{
+  color: black
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  background: #3e3e3e; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #3e3e3e; 
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffb144; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f69b1c; 
 }

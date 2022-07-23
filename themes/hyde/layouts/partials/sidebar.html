@@ -10,12 +10,13 @@
   </div>
 
   <nav>
-    <ul class="sidebar-nav">
+    <ol class="sidebar-nav">
       <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
 
-      {{ range .Site.Menus.main -}}
-      <li><a href="{{.URL}}"> {{ .Name }} </a></li>
-      {{- end }}
+      <li><a href="{{ "/features" | relURL }}"> Features </a></li>
+      <li><a href="{{ "/factions" | relURL }}"> Factions </a></li>
+      <li><a href="{{ "/download" | relURL }}"> Download </a></li>
+      <li><a href="{{ "/credits" | relURL }}"> Credits </a></li>
     </ul>
   </nav>
 

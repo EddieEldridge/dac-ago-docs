@@ -74,7 +74,8 @@ a {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  text-shadow: 0 0 7px #e09900;
 }
 
 /* Headings */
@@ -82,21 +83,22 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #ffb144;
   text-rendering: optimizeLegibility;
 }
 /* h1 {
   font-size: 2rem;
 } */
 h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+  margin-top: 2rem;
+  font-size: 3rem;
 }
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
+  font-size: 50rem;
   margin-top: 1rem;
   font-size: 1rem;
 }

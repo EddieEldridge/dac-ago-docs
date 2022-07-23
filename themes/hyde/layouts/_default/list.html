@@ -1,9 +1,23 @@
 {{ define "main" -}}
-<ul class="posts">
-{{ range .Data.Pages -}}
-  <li>
-    <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></span>
-  </li>
+
 {{- end }}
-</ul>
+
+
+{{ define "main" -}}
+<div class="homepage-content">
+  <h1 class="content-header">
+    {{.Title}}
+  </h1>
+
+  <div class="content-body">
+    <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+    <ul class="posts">
+      {{ range .Data.Pages -}}
+        <li>
+          <span><a class="list-item" href="{{ .Permalink }}">{{ .Title }}</a></span>
+        </li>
+      {{- end }}
+      </ul>
+  </div>
+</div>
 {{- end }}
