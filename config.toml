@@ -1,7 +1,17 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = "DaC: AGO"
+title = "Divide and Conquer: AGO"
 theme = "hyde"
 
 [params]
   description = "A submod for Third Age: Total war - Divide and Conquer"
+  longTitle = "Divde and Conquer: AI and Gameplay Overhaul"
+
+[Menus]
+  main = [
+      {Name = "Download", URL = "https://github.com/username/"},
+      {Name = "Features", URL = "https://www.linkedin.com/in/username/"},
+      {Name = "Factions", URL = "https://www.linkedin.com/in/username/"},
+      {Name = "Changelog", URL = "https://www.linkedin.com/in/username/"},
+      {Name = "Credits", URL = "https://www.linkedin.com/in/username/"}
+  ]

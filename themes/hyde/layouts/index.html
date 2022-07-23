@@ -1,0 +1,33 @@
+{{ define "main" }}
+<!-- <main aria-role="main"> -->
+<!-- <header class="homepage-header">
+        <div class="homepage-content">
+          <h1>{{.Title}}</h1>
+        </div>
+        {{ with .Params.subtitle }}
+        <span class="subtitle">{{.}}</span>
+        {{ end }}
+      </header> -->
+<div class="main-body">
+  <div class="homepage-background">
+
+    <div class="homepage-content">
+      <h1 class="content-header">Divde and Conquer</h1>
+
+      <div class="content-body">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{.Content}}
+        AGO is a submod for Divide and Conquer which itself is a submod of Third Age: Total War, a modification for Medieval 2: Total War
+      </div>
+
+      <div>
+        {{ range first 10 .Site.RegularPages }}
+        {{ .Render "summary"}}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- </main> -->
+{{ end }}

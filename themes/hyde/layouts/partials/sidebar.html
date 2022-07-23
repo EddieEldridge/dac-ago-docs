@@ -1,0 +1,24 @@
+<aside class="sidebar">
+  <div class="sidebar-about">
+    <img src="https://i.imgur.com/TMsohaA.png" width="300" height="300">
+    <a href="{{ .Site.BaseURL }}" class="title">
+      <!-- <h1>{{ .Site.Title }}</h1> -->
+    </a>
+    <p class="lead">
+      {{ with .Site.Params.description }} {{end}}
+    </p>
+  </div>
+
+  <nav>
+    <ul class="sidebar-nav">
+      <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
+
+      {{ range .Site.Menus.main -}}
+      <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+      {{- end }}
+    </ul>
+  </nav>
+
+  <p class="sidebar-bottom">"All that is gold does not glitter,
+    not all those who wander are lost"<br>- J.R.R Tolkien</p>
+</aside>
