@@ -3,7 +3,10 @@ languageCode = 'en-us'
 title = "Divide and Conquer: AI and Gameplay Overhaul"
 theme = ["hyde", "hugo-shortcode-gallery"]
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [params]
   description = "A submod for Third Age: Total war - Divide and Conquer"
   longTitle = "Divde and Conquer: AI and Gameplay Overhaul"
-
+  dorwinionColor = "color: #ffb144;" 

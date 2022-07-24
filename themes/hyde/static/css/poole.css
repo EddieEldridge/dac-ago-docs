@@ -83,7 +83,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #ffb144;
   text-rendering: optimizeLegibility;
 }
 /* h1 {
@@ -92,15 +91,18 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   margin-top: 2rem;
   font-size: 3rem;
+  color: #ffb144;
 }
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
+  color: #ffb144;
 }
 h4, h5, h6 {
   font-size: 50rem;
   margin-top: 1rem;
   font-size: 1rem;
+  color: #ffb144;
 }
 
 /* Body text */
