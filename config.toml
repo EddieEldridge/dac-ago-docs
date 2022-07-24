@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = "Divide and Conquer: AI and Gameplay Overhaul"
-theme = "hyde"
+theme = ["hyde", "hugo-shortcode-gallery"]
 
 [params]
   description = "A submod for Third Age: Total war - Divide and Conquer"
