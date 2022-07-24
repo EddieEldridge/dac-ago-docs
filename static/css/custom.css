@@ -35,7 +35,7 @@
   text-align: left;
   font-size: 1vw;
   color: black;
-  margin-bottom: 100px;
+  margin-bottom: 5px;
   padding: 25px;
   /* height: 100vh; */
   /* padding: 1em; */
@@ -49,8 +49,8 @@
   font-size: 75px;
   color: #ffb144;
   padding: 5px;
-  padding-bottom: 33px;
-  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   text-shadow: 5px 5px #000000;
 }
 
@@ -105,6 +105,7 @@
 
 .sidebar {
   border: 20px solid #000000;
+  border-width: 20px 10px 20px 20px;
   text-align: center;
 }
 
@@ -158,7 +159,7 @@
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 19rem;
   }
 }
 
@@ -202,9 +203,9 @@ a.sidebar-nav-item:focus {
 .sidebar-bottom {
   padding: 5px;
   text-align: center;
-  padding-top: 75%;
-  padding-bottom: 2vh;
+  padding-top: 25%;
   font-style: italic;
+  
 }
 
 
@@ -232,4 +233,67 @@ a.sidebar-nav-item:focus {
 ::marker {
   color: #f69b1c;
   font-size: 25px;
+}
+
+.posts {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Audio Player */
+.audio-player {
+  width: 80%;
+}
+
+.audio-player-container {
+  text-align: center;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #ffbd62;
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: rgba(255, 179, 0, 0.7);
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgba(255, 179, 0, 0.7);
+}
+
+
+audio::-webkit-media-controls-current-time-display {
+  color: rgb(0, 0, 0);
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  color: rgb(0, 0, 0);
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: rgba(197, 140, 5, 0);
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: rgba(255, 179, 0, 0.7);
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* YouTube Embed */
+iframe {
+  color: black;
+}
+
+li {
+  padding-left: 5px;
 }

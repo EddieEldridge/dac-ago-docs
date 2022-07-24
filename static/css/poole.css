@@ -58,17 +58,17 @@ html {
   }
 }
 
-body {
+/* body {
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
-}
+} */
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #227bb9;
+  color: #1474b9;
   text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
@@ -106,39 +106,39 @@ h4, h5, h6 {
 }
 
 /* Body text */
-p {
+/* p {
   margin-top: 0;
   margin-bottom: 1rem;
-}
+} */
 
-strong {
+/* strong {
   color: #303030;
-}
+} */
 
 
 /* Lists */
-ul, ol, dl {
+/* ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
-}
+} */
 
-dt {
+/* dt {
   font-weight: bold;
 }
 dd {
   margin-bottom: .5rem;
-}
+} */
 
 /* Misc */
-hr {
+/* hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
-}
+} */
 
-abbr {
+/* abbr {
   font-size: 85%;
   font-weight: bold;
   color: #555;
@@ -147,7 +147,7 @@ abbr {
 abbr[title] {
   cursor: help;
   border-bottom: 1px dotted #e5e5e5;
-}
+} */
 
 /* Code */
 code,
@@ -157,8 +157,7 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #b3555e;
-  background-color: #f9f9f9;
+  background-color: #955700ab;
   border-radius: 3px;
 }
 pre {
@@ -172,7 +171,6 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
 }
 pre code {
   padding: 0;
@@ -213,7 +211,7 @@ blockquote p:last-child {
 } */
 
 /* Tables */
-table {
+/* table {
   margin-bottom: 1rem;
   width: 100%;
   border: 1px solid #e5e5e5;
@@ -227,7 +225,7 @@ th {
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
-}
+} */
 
 
 /*
@@ -236,10 +234,10 @@ tbody tr:nth-child(odd) th {
  * Extend paragraphs with `.lead` for larger introductory text.
  */
 
-.lead {
+/* .lead {
   font-size: 1.25rem;
   font-weight: 300;
-}
+} */
 
 
 /*
@@ -278,7 +276,7 @@ tbody tr:nth-child(odd) th {
  * Super small header above the content for site name and short description.
  */
 
-.masthead {
+/* .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
@@ -296,7 +294,7 @@ tbody tr:nth-child(odd) th {
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
-}
+} */
 
 
 /*

@@ -4,8 +4,7 @@ subtitle: "The heady vintage of the great gardens of Dorwinion… a land of vine
 color: "color: #ffb144;"
 ---
 
-  {{<audio src="/assets/faction/dorwinion_stratmap_01.mp3" caption="your caption" >}}
-
+{{< audio "dorwinion_stratmap_01.mp3" >}}
 
 ### Starting Location
 Dorwinion is located in the eastern reaches of Rhovanion, bordered by the mountains and sea of Rhûn. Both of these natural features provide Dorwinion some protection from their Easterling neighbours. They begin with their capital; The Garden City (Caras Sant), the castle of the Western Gardens (Sant Annui) and the City of the Coastal Folk (Strondost).

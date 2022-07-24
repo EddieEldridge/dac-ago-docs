@@ -1,0 +1,20 @@
+<div class="audio-player-container">
+    <audio id="audio-player" class="audio-player" controlsList="nodownload noplaybackrate" loop controls preload="none">
+        <source src="./music/{{ index .Params 0 }}" type="audio/mp3">
+    </audio>
+
+    <script>
+        window.onload = function () {
+
+            console.log('hello')
+
+            var player = document.getElementById("audio-player");
+            console.log(player)
+            player.addEventListener("play", function () {
+                var backgroundAudio = document.getElementById("audio-player");
+                backgroundAudio.volume = 0.2;
+            });
+        }
+    </script>
+
+</div>
