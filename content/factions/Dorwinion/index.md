@@ -1,7 +1,6 @@
 ---
-title: "Dorwninion"
+title: "Dorwinion"
 subtitle: "The heady vintage of the great gardens of Dorwinion… a land of vines in ’the burning South.’"
-color: "color: #ffb144;"
 ---
 
 {{< audio "dorwinion_stratmap_01.mp3" >}}

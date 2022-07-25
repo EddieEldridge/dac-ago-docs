@@ -1,3 +1,0 @@
----
-title: "Easterlings of Rhûn"
----

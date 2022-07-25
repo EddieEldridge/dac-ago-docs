@@ -5,11 +5,7 @@
 
     <script>
         window.onload = function () {
-
-            console.log('hello')
-
             var player = document.getElementById("audio-player");
-            console.log(player)
             player.addEventListener("play", function () {
                 var backgroundAudio = document.getElementById("audio-player");
                 backgroundAudio.volume = 0.2;

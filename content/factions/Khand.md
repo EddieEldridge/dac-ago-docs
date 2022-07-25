@@ -1,3 +1,0 @@
----
-title: "Variags of Khand"
----

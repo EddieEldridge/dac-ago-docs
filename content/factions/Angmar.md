@@ -1,3 +1,0 @@
----
-title: "Remnants of Angmar"
----

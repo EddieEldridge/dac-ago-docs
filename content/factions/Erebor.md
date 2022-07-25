@@ -1,3 +1,0 @@
----
-title: "Dwarves of Erebor"
----

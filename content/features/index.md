@@ -1,6 +1,8 @@
 ---
 title: "Features"
 ---
+
+### AI and Gameplay
 - Completely overhauled campaign AI with a focus on different faction/culture specific behaviour
 - Aggression, how likely to betray depends on what kind of faction it is.
 - Allies help way more, they will often come to relieve a siege on one of your settlements
@@ -28,3 +30,18 @@ title: "Features"
 - Fixed and expanded mercenaries.
 - Slowed down recruitment pools and increased time it takes to recruit units to decrease spam and make it so you must plan getting units in advance.
 - Added spiders back into the mod. (Not crashing)
+
+### Factions
+- Dorwinion Faction overhauled
+
+### Units
+- Redone many existing units
+
+### Miscellaneous
+- Adopted generals are always from 16-18 years old to fit better in family trees. 
+- Slight changes to how culture spreads (governors spread culture, spies can spread culture slightly) .
+- Decreased cost and time to build the "inn" line of buildings as the AI loves to build them till the max level while they give you almost nothing.
+- Hundreds of typos fixed by running a spellchecker on the files and finding them
+- Some AI 'cheats' removed like the battlesurgery that gives them like 50% of their army back after a win.
+- Included BoH fix by ‘TiberiusConstantine’
+- A lot of little tweaks here and there (examples: you can build forts on resources/near bridges, archers get 5 volleys of instead of original 1 in autoresolve before getting melee stats, few little easy changes from v5 changelog implemented)

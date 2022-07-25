@@ -1,32 +1,11 @@
 ---
 title: "Divide and Conquer"
 ---
-## Features
+### What is AGO?
+AGO or 'AI and Gameplay Overhaul' is a submod for the submod 'Divide and Conquer' which itself is a submod of 'Third Age: Total War' which is a mod for the historical strategy game 'Medieval 2: Total War'
 
-- Completely overhauled campaign AI with a focus on different faction/culture specific behaviour
-- Aggression, how likely to betray depends on what kind of faction it is.
-- Allies help way more, they will often come to relieve a siege on one of your settlements
-- Overhauled diplomacy and faction standings.
-    - AA start neutral to everyone even as AI, but they generally dislike everyone and hate the Dunedain nations and Mordor
-    - Made it basically impossible for the most lore breaking ceasefires/alliances/wars to happen.
-    - Factions that hate you often decline trade rights and map info
-- Overhauled economy, cities make more money than castles, generally a lot less income from taxes and boosted income from trading, farming and mining (basically making getting economy buildings and capturing trading settlements more important).
-- Pace has been slowed down overall allowing for longer campaigns where you try to complete the victory conditions without fighting endless spam from huge nations late game
-- Difference between castles and cities is way bigger, castles replenish troops faster while making way less money than cities
-- Battle AI Overhaul, Increased the health of gates/walls making it harder to capture settlements, better Battle AI that defends the gates/walls, sallies when getting shot and flanks.
-- Removed focus on capturing plaza, AI knows this as well and focuses on fighting you instead of defending/attacking plaza.
-- AI sits outside the range of towers until the gate is broken.
-- Redone win conditions, with more lore-accurate targets.
-- Removed barracks event and made it depend on buildings.
-- Fixed and expanded mercenaries.
-- Slowed down recruitment pools and increased time it takes to recruit units to decrease spam and make it so you must plan getting units in advance.
-- Added spiders back into the mod. (Not crashing)
-- Difference between castles and cities is way bigger, castles replenish troops faster while making way less money than cities
-- Battle AI Overhaul, Increased the health of gates/walls making it harder to capture settlements, better Battle AI that defends the gates/walls, sallies when getting shot and flanks.
-    - Removed focus on capturing plaza, AI knows this as well and focuses on fighting you instead of defending/attacking plaza.
-    - AI sits outside the range of towers until the gate is broken.
-- Redone win conditions, with more lore-accurate targets.
-- Removed barracks event and made it depend on buildings.
-- Fixed and expanded mercenaries.
-- Slowed down recruitment pools and increased time it takes to recruit units to decrease spam and make it so you must plan getting units in advance.
-- Added spiders back into the mod. (Not crashing)
+<div class="download-embed-homepage">
+<iframe allow="fullscreen;" frameborder="0" width="900" height="500"
+src="https://www.youtube.com/embed/hjVQSSN2MRE">
+</iframe>
+</div>

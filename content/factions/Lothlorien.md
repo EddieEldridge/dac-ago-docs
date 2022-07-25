@@ -1,3 +1,0 @@
----
-title: "Realm of Lothlórien"
----

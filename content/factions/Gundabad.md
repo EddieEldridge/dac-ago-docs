@@ -1,3 +1,0 @@
----
-title: "Orcs of Gundabad"
----

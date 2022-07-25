@@ -1,24 +1,22 @@
 <aside class="sidebar">
-  <div class="sidebar-about">
-    <img src="https://i.imgur.com/TMsohaA.png" width="300" height="300">
+    <img src="https://i.imgur.com/QqeiEUQ.png" width="225" height="225">
     <a href="{{ .Site.BaseURL }}" class="title">
       <!-- <h1>{{ .Site.Title }}</h1> -->
     </a>
     <p class="lead">
       {{ with .Site.Params.description }} {{end}}
     </p>
-  </div>
 
   <nav>
-    <ol class="sidebar-nav">
+    <ul class="sidebar-nav">
       <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
 
-      <li><a href="{{ "/features" | relURL }}"> Features </a></li>
-      <li><a href="{{ "/factions" | relURL }}"> Factions </a></li>
-      <li><a href="{{ "/download" | relURL }}"> Download </a></li>
-      <li><a href="{{ "/download" | relURL }}"> FAQ </a></li>
-      <li><a href="{{ "/download" | relURL }}"> Changelog </a></li>
-      <li><a href="{{ "/credits" | relURL }}"> Credits </a></li>
+      <li><a href="{{ "features" | relURL }}"> Features </a></li>
+      <li><a href="{{ "factions" | relURL }}"> Factions </a></li>
+      <li><a href="{{ "download" | relURL }}"> Download </a></li>
+      <li><a href="{{ "faq" | relURL }}"> FAQ </a></li>
+      <li><a href="{{ "changelog" | relURL }}"> Changelog </a></li>
+      <li><a href="{{ "credits" | relURL }}"> Credits </a></li>
     </ul>
   </nav>
 

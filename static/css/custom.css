@@ -35,8 +35,6 @@
   text-align: left;
   font-size: 1vw;
   color: black;
-  margin-bottom: 5px;
-  padding: 25px;
   /* height: 100vh; */
   /* padding: 1em; */
   /* margin:auto; */
@@ -46,11 +44,11 @@
 .content-header {
   font-family: 'Aniron', sans-serif;
   text-align: center;
-  font-size: 75px;
+  font-size: 50px;
   color: #ffb144;
   padding: 5px;
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 0px;
   text-shadow: 5px 5px #000000;
 }
 
@@ -69,45 +67,42 @@
 .content-body {
   /* background-color: rgba(198, 171, 16, 0.104); */
   height: auto;
-  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   color: white;
   text-shadow: 3px 3px #000000;
-  padding-bottom: 50px;
+  padding-bottom: 35px;
   /* position: relative; */
   /* width: 50vw; */
   /* height: 200vw; */
 }
 
 .content-body>h2 {
-  font-size: 50px;
+  /* font-size: 30px; */
   font-family: 'Aniron', sans-serif;
   color: #ffb144;
   /* font-style: italic; */
-  padding-left: 45px;
-  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-bottom: 0px;
 }
 
-.content-body>h3 {
+/* .content-body>h3 {
   font-size: 40px;
 }
 
 .content-body>h4 {
   font-size: 35px;
-}
+} */
 
 .content-body>p,li {
-  font-size: 30px;
+  font-size: 23px;
 }
 
 /* ::-webkit-scrollbar {
     display: none;
   } */
 
-.sidebar {
-  border: 20px solid #000000;
-  border-width: 20px 10px 20px 20px;
-  text-align: center;
-}
+
 
 /* Scrollbar */
 /* width */
@@ -147,10 +142,12 @@
  * out above content in mobile and later moves to the side with wider viewports.
  */
  .sidebar {
+  padding: 1rem;
+  border: 20px solid #000000;
+  border-width: 20px 10px 20px 20px;
   text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #232323;
+  background-color: rgb(34, 34, 34);
+  text-shadow: 3px 3px #000000;
 }
 
 @media (min-width: 48em) {
@@ -169,19 +166,12 @@
 }
 
 /* Top section */
-.sidebar-about h1 {
-  color: #ffb144;
-  padding-top: 2px;
-  margin-top: 0;
-  /* font-family: "Abril Fatface", serif; */
-  font-size: 3.25rem;
-}
 
 /* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
   list-style: none;
-  padding-top: 50px;
+  padding-top: 5px;
 }
 
 /* Sidebar Links */
@@ -196,16 +186,18 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 .sidebar-nav a {
-  font-size: 50px;
+  font-size: 40px;
   color: #ffb144;
 }
 
 .sidebar-bottom {
   padding: 5px;
   text-align: center;
-  padding-top: 25%;
+  padding-top: 10%;
+  padding-bottom: 5%;
   font-style: italic;
-  
+  color: grey;
+  font-size: 20px;
 }
 
 
@@ -226,7 +218,7 @@ a.sidebar-nav-item:focus {
 
 /* List Items */
 .list-item {
-  font-size: 50px;
+  font-size: 35px;
   color: #ffb144;
 }
 
@@ -235,18 +227,16 @@ a.sidebar-nav-item:focus {
   font-size: 25px;
 }
 
-.posts {
-  text-align: center;
-}
-
-ul {
+.content-body-list {
   list-style: none;
+  text-align: center;
   padding: 0;
 }
 
 /* Audio Player */
 .audio-player {
   width: 80%;
+  padding: 10px;
 }
 
 .audio-player-container {
@@ -292,8 +282,88 @@ audio::-webkit-media-controls-volume-slider {
 /* YouTube Embed */
 iframe {
   color: black;
+  width: 75%;
 }
 
-li {
-  padding-left: 5px;
+.download-embed-homepage {
+  text-align: center;
+  width: 100%;
+}
+
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: bold;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+  color: #ffb144;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Aniron', sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: 'Aniron', sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4{
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 10px;
+}
+
+/* 404 */
+.title-404 {
+  padding-top: 25px;
+}
+
+.main-404 {
+  text-align: center;
+}
+
+.content-404{
+  font-family: 'Aniron', sans-serif;
+  font-size: 25px;
+  color: #ffb144;
+  height: auto;
+  padding: 5%;
+}
+
+.page-wrapper {
+  /* height: 100vh; */
+  /* width: 100vw; */
+}
+
+.sidebar img {
+  border-radius: 50%;
+  filter: drop-shadow(10px 10px 4px #000000);
+}
+
+.homepage-content img {
+  border-radius: 0%;
+  filter: drop-shadow(10px 10px 4px #000000);
+}
+
+img {
+  border-radius: 50%;
+  filter: drop-shadow(10px 10px 4px #000000);
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(34, 34, 34);
 }
