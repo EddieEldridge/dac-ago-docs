@@ -1,8 +1,7 @@
 /* Custom */
 @font-face {
-  font-family: 'Parix';
-  src:
-    url('../fonts/aniron.ttf') format('truetype'),
+  font-family: 'Aniron';
+  src: url('../fonts/aniron.ttf') format('truetype')
 }
 
 @media (min-width: 48em) {
@@ -16,8 +15,8 @@
 
 .content {
   background-color: rgb(34, 34, 34);
-  border: 20px solid #000000f8;
-  height: auto;
+  /* border: 20px solid #000000f8; */
+  height: 100vh;
 }
 
 .homepage-background {
@@ -48,8 +47,9 @@
   color: #ffb144;
   padding: 5px;
   padding-bottom: 10px;
-  padding-top: 0px;
+  padding-top: 15px;
   text-shadow: 5px 5px #000000;
+  position: sticky;
 }
 
 .content-subtitle {
@@ -143,7 +143,7 @@
  */
  .sidebar {
   padding: 1rem;
-  border: 20px solid #000000;
+  /* border: 20px solid #000000; */
   border-width: 20px 10px 20px 20px;
   text-align: center;
   background-color: rgb(34, 34, 34);
@@ -344,7 +344,7 @@ h6 {
 }
 
 .page-wrapper {
-  /* height: 100vh; */
+  height: 100vh;
   /* width: 100vw; */
 }
 
