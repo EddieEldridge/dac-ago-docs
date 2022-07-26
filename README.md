@@ -10,8 +10,10 @@
 
 ![](https://img.shields.io/github/commit-activity/w/EddieEldridge/dac-ago-docs?style=for-the-badge)
 ![](https://img.shields.io/github/issues/EddieEldridge/dac-ago-docs?style=for-the-badge)
+[![Build Status](https://img.shields.io/discord/713369537948549191?style=for-the-badge)](https://discord.gg/zygvJ64Q83)
 
-![Sounds of Middle Earth](https://user-images.githubusercontent.com/22448079/179321665-c903cf16-3486-4eb2-979c-4f2e2130339c.png)
+![Screenshot 2022-07-26 at 13 02 23](https://user-images.githubusercontent.com/22448079/181001975-d3730b6b-37fa-416f-a29f-4090dd2d31bf.png)
+
 
 ## Build
 
