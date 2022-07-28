@@ -353,17 +353,48 @@ h6 {
   filter: drop-shadow(10px 10px 4px #000000);
 }
 
-.homepage-content img {
-  border-radius: 0%;
-  filter: drop-shadow(10px 10px 4px #000000);
-}
-
-img {
-  border-radius: 50%;
-  filter: drop-shadow(10px 10px 4px #000000);
-}
-
 body {
   height: 100vh;
   background-color: rgb(34, 34, 34);
+}
+
+/* Fade In */
+.content-body {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
 }
