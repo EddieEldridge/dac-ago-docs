@@ -329,6 +329,8 @@ h6 {
 /* 404 */
 .title-404 {
   padding-top: 25px;
+  font-family: 'Aniron', sans-serif;
+  text-shadow: 5px 5px #000000;
 }
 
 .main-404 {
@@ -336,8 +338,8 @@ h6 {
 }
 
 .content-404{
-  font-family: 'Aniron', sans-serif;
   font-size: 25px;
+  text-shadow: 5px 5px #000000;
   color: #ffb144;
   height: auto;
   padding: 5%;
