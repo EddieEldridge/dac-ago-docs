@@ -2,9 +2,8 @@
 title: "Features"
 ---
 
-### AI and Gameplay
-
-#### **Campaign**
+## AI and Gameplay
+### **Campaign**
 
 - Completely overhauled campaign AI with a focus on different faction/culture specific behavior
 - Pace has been slowed down overall allowing for longer campaigns where you try to complete the victory conditions without fighting endless spam from huge nations late game
@@ -33,7 +32,7 @@ title: "Features"
 - More detailed unit stats such as speed and morale
 - Paths have been re-added to the Misty Mountains, allowing for easier traversal for the factions here
 
-#### **Battle**
+### **Battle**
 
 - Battle AI Overhaul,
 - Increased the health of gates/walls making it harder to capture settlements
@@ -47,9 +46,9 @@ title: "Features"
 - Underground cave battlemaps (custom tiles) in the mountain passes (created by WK)
 - New battlemaps for Orc City and Large Town
 
-### Scripts
+## Scripts
 
-#### Ring Script
+### Ring Script
 
 - Rewritten and re-imagined ring script focusing on making the War of the Ring focused on the Ring like it should be
 - Setup spy networks to find the location of the One Ring
@@ -61,29 +60,29 @@ title: "Features"
 - AI can also choose to hold onto the ring with lore accurate chances for each faction
 - For more information about the ring script, you can read it [here](https://discord.com/channels/759414542240972840/800365246522195988/800369046213623828)
 
-#### Reunited Kingdom
+### Reunited Kingdom
 
-#### Raiding
+### Raiding
 
 As an orc faction you can now stand on enemy territory to generate income, causing devastation (which is caused by standing on regions with farms built) which will keep increasing until it completes the cycle and resets, the trait description shows the amount of income being genearted from raiding.
 
-#### Palantir
+### Palantir
 
 Depending on how many Palantiri you own, the fog of war is removed for a short amount of time at the start of every turn
 
-#### Scouring of the Shire
+### Scouring of the Shire
 
 If Saruman is defeated at Isengard he may head North and scour the Shire who will fight against the Free Peoples until Hobbiton is liberated and the Hobbits freed
 
-#### Beacons of Gondor
+### Beacons of Gondor
 
 3 Rohan armies spawn over the course of your Gondor campaign as long as you keep Rohan above 5 regions and in control of Edoras. The opposite also true: 3 Gondor armies can spawn for Rohan as long as you keep Gondor above 12 regions and in control of Minas Tirith
 
-#### Rohan Resuruction
+### Rohan Resuruction
 
 If Rohan falls and the faction is destroyed, if you retake Edoras you can bring them back from the ashes anew and re-instate the faction.
 
-### Visuals
+## Visuals
 
 - Brand new custom campaign map textures and models
 - New battlefield, grass and skybox textures courtesy of Swagger
@@ -94,34 +93,34 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 - New LOTR themed 'Ringbearer' font for many menu items, where appropriate
 - Remasted UI menus for different cultures courtesy of Pythax
 
-#### Factions with New Visuals
+### Factions with New Visuals
 
-##### Dunedain
+#### Dunedain
 
 - New visuals for early Rangers of the North roster
 - New strat models and battle models for Dunedain generals and captains, Aragorn and Halbarad by Krekbel
 
-##### Dunland
+#### Dunland
 
 - Complete roster overhaul by BillBaraka
 
-##### Anduin
+#### Anduin
 
 - Skinchangers now transform into bears mid charge courtesy of BillBaraka
 
-##### Dol Goldur
+#### Dol Goldur
 
 - Goblin headhunters and spider hunters have a new poison arrow that releases deadly poison instead of just reducing morale
 
-##### Ar-Adunaim
+#### Ar-Adunaim
 
 - Entire roster overhaul courtesy of Castellan
 
-##### Angmar
+#### Angmar
 
 - New Barrow Wights courtesy of R3EAPER
 
-##### Rebels
+#### Rebels
 
 - New Ruffians model by Lerynian
 - New, more lore friendly model for Sellswords by Lerynian
@@ -129,6 +128,6 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 - New spider models including spider riders courtesy of BOTET
 - Rhun's units have a more realistic color courtesy of Arktos
 
-##### Moria
+#### Moria
 
 - New portraits for moria starting generals by robert1872
