@@ -29,8 +29,8 @@
   {{ partial "head_fonts.html" . }}
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ago_icon.png">
-  <link rel="shortcut icon" href="/ago_icon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ .Site.BaseURL }}ago_icon.png">
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}ago_icon.png">
 
   <!-- RSS etc -->
   {{ range .AlternativeOutputFormats -}}

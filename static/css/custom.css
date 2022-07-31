@@ -1,8 +1,7 @@
 /* Custom */
 @font-face {
-  font-family: 'Parix';
-  src:
-    url('../fonts/aniron.ttf') format('truetype'),
+  font-family: 'Aniron';
+  src: url('../fonts/aniron.ttf') format('truetype')
 }
 
 @media (min-width: 48em) {
@@ -16,8 +15,8 @@
 
 .content {
   background-color: rgb(34, 34, 34);
-  border: 20px solid #000000f8;
-  height: auto;
+  /* border: 20px solid #000000f8; */
+  height: 100vh;
 }
 
 .homepage-background {
@@ -48,8 +47,9 @@
   color: #ffb144;
   padding: 5px;
   padding-bottom: 10px;
-  padding-top: 0px;
+  padding-top: 15px;
   text-shadow: 5px 5px #000000;
+  position: sticky;
 }
 
 .content-subtitle {
@@ -143,7 +143,7 @@
  */
  .sidebar {
   padding: 1rem;
-  border: 20px solid #000000;
+  /* border: 20px solid #000000; */
   border-width: 20px 10px 20px 20px;
   text-align: center;
   background-color: rgb(34, 34, 34);
@@ -329,6 +329,8 @@ h6 {
 /* 404 */
 .title-404 {
   padding-top: 25px;
+  font-family: 'Aniron', sans-serif;
+  text-shadow: 5px 5px #000000;
 }
 
 .main-404 {
@@ -336,15 +338,15 @@ h6 {
 }
 
 .content-404{
-  font-family: 'Aniron', sans-serif;
   font-size: 25px;
+  text-shadow: 5px 5px #000000;
   color: #ffb144;
   height: auto;
   padding: 5%;
 }
 
 .page-wrapper {
-  /* height: 100vh; */
+  height: 100vh;
   /* width: 100vw; */
 }
 
@@ -353,17 +355,48 @@ h6 {
   filter: drop-shadow(10px 10px 4px #000000);
 }
 
-.homepage-content img {
-  border-radius: 0%;
-  filter: drop-shadow(10px 10px 4px #000000);
-}
-
-img {
-  border-radius: 50%;
-  filter: drop-shadow(10px 10px 4px #000000);
-}
-
 body {
   height: 100vh;
   background-color: rgb(34, 34, 34);
+}
+
+/* Fade In */
+.content-body {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
 }
