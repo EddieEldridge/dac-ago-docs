@@ -1,0 +1,4 @@
+- Add Reunited Kingdom section to Features>Scripts>Reunited Kingdom
+- Flesh out factions pages
+- Clean up changelog
+- Add credits from credits.txt
