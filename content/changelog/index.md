@@ -2,44 +2,8 @@
 title: "Changelog"
 ---
 
-### 2nd July, 2022
-Fynn go brrrr
+For a full list of current features, see the features page. All changes documented here were made since the last release of AGO (2.1).
 
-### 3rd June, 2021
-Lerynian go brrrr
-
-### 3rd June, 2021
-Lerynian go brrrr
-
-### 3rd June, 2021
-R3APER go brrrr
-
-### 3rd June, 2020
-Bill do nothing :(
-
-### 3rd June, 2020
-Fynn go brrrr
-
-### 3rd June, 2021
-Lerynian go brrrr
-
-### 3rd June, 2021
-R3APER go brrrr
-
-### 3rd June, 2020
-Bill do nothing :(
-
-### 3rd June, 2020
-Fynn go brrrr
-
-### 3rd June, 2021
-Lerynian go brrrr
-
-### 3rd June, 2021
-R3APER go brrrr
-
-### 3rd June, 2020
-Bill do nothing :(
-
-### 3rd June, 2020
-Fynn go brrrr
+### 2nd August, 2022
+#### Medik
+* Added finance scroll pictures for each unique culture
