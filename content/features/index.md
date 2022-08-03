@@ -34,7 +34,7 @@ title: "Features"
 
 ### **Battle**
 
-- Battle AI Overhaul,
+- Completely overhauled battle AI to make battles feel more dynamic and engaging
 - Increased the health of gates/walls making it harder to capture settlements
 - AI is more likely to defend the gates and walls
 - AI is more likely to sally out when getting shot and flanked
@@ -60,13 +60,18 @@ title: "Features"
 - AI can also choose to hold onto the ring with lore accurate chances for each faction
 - For more information about the ring script, you can read it [here](https://discord.com/channels/759414542240972840/800365246522195988/800369046213623828)
 
-### Reunited Kingdom
+### Reforming Arnor
+In order to reform Arnor, you need to build the Cardolan/Arthedain administration buildings in at least 3 Cardolan and at least 3 Arthedain regions to unlock the ability to build the House of Kings in Annúminas.
 
-### Raiding
+After building the House of Kings you will restore Arnor. This will unlock the ability to upgrade your units to better armour upgrades and unlock new units. Restoring Arnor is a requirement for the Reunited Kingdom now. Bree needs to not be under the influence of Saruman for Arnor to be restored.
+
+After restoring Arnor you can run **Arnor.bat** to change your action icons, banners and name.
+
+### Orc Raiding
 
 As an orc faction you can now stand on enemy territory to generate income, causing devastation (which is caused by standing on regions with farms built) which will keep increasing until it completes the cycle and resets, the trait description shows the amount of income being genearted from raiding.
 
-### Palantir
+### The Palantíri
 
 Depending on how many Palantiri you own, the fog of war is removed for a short amount of time at the start of every turn
 
@@ -78,7 +83,7 @@ If Saruman is defeated at Isengard he may head North and scour the Shire who wil
 
 3 Rohan armies spawn over the course of your Gondor campaign as long as you keep Rohan above 5 regions and in control of Edoras. The opposite also true: 3 Gondor armies can spawn for Rohan as long as you keep Gondor above 12 regions and in control of Minas Tirith
 
-### Rohan Resuruction
+### Rohan Resurrection
 
 If Rohan falls and the faction is destroyed, if you retake Edoras you can bring them back from the ashes anew and re-instate the faction.
 
@@ -91,7 +96,7 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 - Restore Mordor and heal the corruption allowing life to grow again and the map texture to change
 - A bunch of new portraits for lots of factions courtesy of Naras
 - New LOTR themed 'Ringbearer' font for many menu items, where appropriate
-- Remasted UI menus for different cultures courtesy of Pythax
+- Remastered UI menus for different cultures courtesy of Pythax
 
 ### Factions with New Visuals
 
