@@ -3,6 +3,7 @@ title: "Features"
 ---
 
 ## AI and Gameplay
+
 ### **Campaign**
 
 - Completely overhauled campaign AI with a focus on different faction/culture specific behavior
@@ -61,6 +62,7 @@ title: "Features"
 - For more information about the ring script, you can read it [here](https://discord.com/channels/759414542240972840/800365246522195988/800369046213623828)
 
 ### Reforming Arnor
+
 In order to reform Arnor, you need to build the Cardolan/Arthedain administration buildings in at least 3 Cardolan and at least 3 Arthedain regions to unlock the ability to build the House of Kings in Annúminas.
 
 After building the House of Kings you will restore Arnor. This will unlock the ability to upgrade your units to better armour upgrades and unlock new units. Restoring Arnor is a requirement for the Reunited Kingdom now. Bree needs to not be under the influence of Saruman for Arnor to be restored.
@@ -108,6 +110,8 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 #### Dunland
 
 - Complete roster overhaul by BillBaraka
+
+{{< gallery match="images/dunland/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 #### Anduin
 
