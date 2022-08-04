@@ -11,9 +11,9 @@ title: "Features"
 - Difference between castles and cities is way bigger, castles replenish troops faster while making way less money than cities
 - Aggression has been modified, changing how likely betrayal is depends on what kind of faction it is
 - Overhauled diplomacy and faction standings
-  - AA start neutral to everyone even as AI, but they generally dislike everyone and hate the Dunedain nations and Mordor
-  - Made it basically impossible for the most lore breaking ceasefires/alliances/wars to happen
-  - Factions that hate you often decline trade rights and map info
+    - AA start neutral to everyone even as AI, but they generally dislike everyone and hate the Dunedain nations and Mordor
+    - Made it basically impossible for the most lore breaking ceasefires/alliances/wars to happen
+    - Factions that hate you often decline trade rights and map info
 - Overhauled the economy such that cities make more money than castles, make generally a lot less income from taxes but get boosted income from trading, farming and mining (basically making getting economy buildings and capturing trading settlements more important)
 - Tweaked custom generals so that nearly every faction has a good selection of custom generals at game start
 - Allies will help way more and will often come to relieve a siege on one of your settlements
