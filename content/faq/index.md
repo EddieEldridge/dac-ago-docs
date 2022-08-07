@@ -9,6 +9,7 @@ The reason it gets detected is because it works by modifying the memory of anoth
 This is the cause of the error message that tells you it cant find m2tweop.exe when trying to start the mod. (anti-virus deleted it)
 
 for Windows Defender the instructions are here
+
 - Go to Start > Settings > Update & Security > Windows Security > Virus & threat protection.
 - Under Virus & threat protection settings, select Manage settings, and then under Exclusions, select Add or remove exclusions.
 - Select Add an exclusion, and then select the mod folder.
@@ -24,7 +25,7 @@ If another anti-virus is blocking it you will have to go into it's settings and 
   - If nothing seems to work and you crash at startup using both dac.bat and dac_no_eop.bat redownload and reinstall the mod.
   - Shattered Alliances works but is outdated and not really supported, try at your own risk. If you seek support mention you were playing Shattered Alliances.
 
-#### Game crashes with a "Pure virtual function call" message:
+#### Game crashes with a "Pure virtual function call" message
 This is a rare medieval 2 bug that can happen if a faction gets destroyed. There is no fix other then making sure the faction doesn't die and trying at a later point.
 
 #### Game freezes with windows loading icon
@@ -35,7 +36,7 @@ Run m2tweop.exe as admin. Take note that the bodyguard replenishing limit unlock
 #### d3dx9_43.dll and XINPUT1_3.dll were not found
 Install Directx from this link: https://drive.google.com/file/d/1Do4Uu5j_7xX5Jw8IqNuSjMMnnATPsDTa/view?usp=sharing or run the EOP health checker
 
-####  Vanilla starts when trying to start the mod:
+#### Vanilla starts when trying to start the mod
 Open TATW.cfg and change the path after mod= to point to what you called your mod folder, also make sure your steam launch options are empty!
 
 #### Resolution issues

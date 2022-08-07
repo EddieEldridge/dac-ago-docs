@@ -3,6 +3,7 @@ title: "Features"
 ---
 
 ## AI and Gameplay
+
 ### **Campaign**
 
 - Completely overhauled campaign AI with a focus on different faction/culture specific behavior
@@ -10,9 +11,9 @@ title: "Features"
 - Difference between castles and cities is way bigger, castles replenish troops faster while making way less money than cities
 - Aggression has been modified, changing how likely betrayal is depends on what kind of faction it is
 - Overhauled diplomacy and faction standings
-  - AA start neutral to everyone even as AI, but they generally dislike everyone and hate the Dunedain nations and Mordor
-  - Made it basically impossible for the most lore breaking ceasefires/alliances/wars to happen
-  - Factions that hate you often decline trade rights and map info
+    - AA start neutral to everyone even as AI, but they generally dislike everyone and hate the Dunedain nations and Mordor
+    - Made it basically impossible for the most lore breaking ceasefires/alliances/wars to happen
+    - Factions that hate you often decline trade rights and map info
 - Overhauled the economy such that cities make more money than castles, make generally a lot less income from taxes but get boosted income from trading, farming and mining (basically making getting economy buildings and capturing trading settlements more important)
 - Tweaked custom generals so that nearly every faction has a good selection of custom generals at game start
 - Allies will help way more and will often come to relieve a siege on one of your settlements
@@ -61,6 +62,7 @@ title: "Features"
 - For more information about the ring script, you can read it [here](https://discord.com/channels/759414542240972840/800365246522195988/800369046213623828)
 
 ### Reforming Arnor
+
 In order to reform Arnor, you need to build the Cardolan/Arthedain administration buildings in at least 3 Cardolan and at least 3 Arthedain regions to unlock the ability to build the House of Kings in Annúminas.
 
 After building the House of Kings you will restore Arnor. This will unlock the ability to upgrade your units to better armour upgrades and unlock new units. Restoring Arnor is a requirement for the Reunited Kingdom now. Bree needs to not be under the influence of Saruman for Arnor to be restored.
@@ -108,6 +110,8 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 #### Dunland
 
 - Complete roster overhaul by BillBaraka
+
+{{< gallery match="images/dunland/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 #### Anduin
 

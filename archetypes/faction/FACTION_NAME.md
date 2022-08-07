@@ -11,11 +11,9 @@ subtitle: ""
 
 ### Early Game
 
-
 ### Military Overview
 
 ### Special Features
-
 
 ### Rare Units
 
