@@ -1,5 +1,21 @@
 - Add Reunited Kingdom section to Features>Scripts>Reunited Kingdom
 - Flesh out factions pages
-~- Clean up changelog~
-~- Add credits from credits.txt~
 - Add gallery section to Features>Visuals section
+- Take screenshots of the following
+
+- Scouring of the Shire
+- Reforming Anor
+- New campaign map textures
+- New battlefield textures
+- New strat map models
+- New conscription troop textures by Wicked
+- Healed mordor
+- New UIs/Fonts
+- New dunedain rangers and strat models
+- Skinchangers
+- Ar-Adunaim roster
+- Barrow Wights at night
+- Ruffians, Wargs and sellswords
+- New spider models
+- New rhun units
+- New Moria portraits
