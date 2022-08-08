@@ -100,6 +100,8 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 - New LOTR themed 'Ringbearer' font for many menu items, where appropriate
 - Remastered UI menus for different cultures courtesy of Pythax
 
+{{< gallery match="images/stratmap/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+
 ### Factions with New Visuals
 
 #### Dunedain
