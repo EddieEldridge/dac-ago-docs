@@ -5,7 +5,6 @@
 
 - Scouring of the Shire
 - Reforming Anor
-- New campaign map textures
 - New battlefield textures
 - New strat map models
 - New conscription troop textures by Wicked
@@ -16,6 +15,5 @@
 - Ar-Adunaim roster
 - Barrow Wights at night
 - Ruffians, Wargs and sellswords
-- New spider models
 - New rhun units
 - New Moria portraits

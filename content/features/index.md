@@ -123,6 +123,10 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 
 - Goblin headhunters and spider hunters have a new poison arrow that releases deadly poison instead of just reducing morale
 
+
+{{< gallery match="images/dol_goldur/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+
+
 #### Ar-Adunaim
 
 - Entire roster overhaul courtesy of Castellan
