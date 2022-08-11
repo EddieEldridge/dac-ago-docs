@@ -109,6 +109,9 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 - New visuals for early Rangers of the North roster
 - New strat models and battle models for Dunedain generals and captains, Aragorn and Halbarad by Krekbel
 
+
+{{< gallery match="images/rangers/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+
 #### Dunland
 
 - Complete roster overhaul by BillBaraka
@@ -118,6 +121,10 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 #### Anduin
 
 - Skinchangers now transform into bears mid charge courtesy of BillBaraka
+
+
+{{< gallery match="images/anduin/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+
 
 #### Dol Goldur
 
@@ -131,9 +138,22 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 
 - Entire roster overhaul courtesy of Castellan
 
+{{< gallery match="images/adunaim/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+
+
+#### Rhûn
+
+- Rhun Visual Overhaul with Arktos 'Empire of Rhûn' visuals
+
+{{< gallery match="images/rhun/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+
+
 #### Angmar
 
 - New Barrow Wights courtesy of R3EAPER
+
+
+{{< gallery match="images/wights/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 #### Rebels
 

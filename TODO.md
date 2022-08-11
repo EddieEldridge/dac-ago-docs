@@ -5,15 +5,10 @@
 
 - Scouring of the Shire
 - Reforming Anor
-- New battlefield textures
 - New strat map models
 - New conscription troop textures by Wicked
-- Healed mordor
 - New UIs/Fonts
 - New dunedain rangers and strat models
 - Skinchangers
-- Ar-Adunaim roster
-- Barrow Wights at night
 - Ruffians, Wargs and sellswords
-- New rhun units
 - New Moria portraits

@@ -312,7 +312,7 @@
 					return true;
 				}
 			},
-			
+
 
 			/**
 			 * Touch navigation
@@ -520,7 +520,7 @@
 					$( '#swipebox-bottom-bar' ).animate( { bottom : 0 }, 500 );
 					setTimeout( function() {
 						bars.addClass( 'visible-bars' );
-					}, 1000 );
+					}, 5000 );
 				}
 			},
 
@@ -735,7 +735,7 @@
 						</div>');
 						slide.append(loadingHtml);
 					}
-					
+
 					$this.loadMedia( src, function() {
 						slide.removeClass( 'slide-loading' );
 						slide.html( this );
@@ -768,7 +768,7 @@
 					description = elements[ index ].description;
 				}
 
-				
+
 				if ( title ) {
 					$( '#swipebox-top-bar' ).show();
 					$( '#swipebox-title' ).append( title );
@@ -814,7 +814,7 @@
 				if ( a.search ) {
 					qs = JSON.parse( '{"' + a.search.toLowerCase().replace('?','').replace(/&/g,'","').replace(/=/g,'":"') + '"}' );
 				}
-				
+
 				// Extend with custom data
 				if ( $.isPlainObject( customData ) ) {
 					qs = $.extend( qs, customData, plugin.settings.queryStringData ); // The dev has always the final word
@@ -969,7 +969,7 @@
 			closeSlide : function () {
 				if( plugin.settings.closeFadeOutTime > 0){
 					$('#swipebox-overlay').fadeOut(  plugin.settings.closeFadeOutTime, function() { // fade out overlay
-						this.destroy(); 
+						this.destroy();
 					}.bind(this));
 				}
 				$( 'html' ).removeClass( 'swipebox-html' );
