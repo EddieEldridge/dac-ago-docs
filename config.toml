@@ -1,4 +1,4 @@
-baseURL = "https://EddieEldridge.github.io/dac-ago-docs/"
+baseURL = "https://divide-and-conquer.com/"
 languageCode = 'en-us'
 title = "Divide and Conquer: AI and Gameplay Overhaul"
 theme = ["hugo-shortcode-gallery"]
@@ -9,7 +9,6 @@ theme = ["hugo-shortcode-gallery"]
 [params]
   description = "A submod for Third Age: Total war - Divide and Conquer"
   longTitle = "Divde and Conquer: AI and Gameplay Overhaul"
-  dorwinionColor = "color: #ffb144;"
 
 [markup]
   [markup.tableOfContents]
