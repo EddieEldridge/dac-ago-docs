@@ -1,6 +1,11 @@
 ---
 title: "Features"
+toc: true
+description: "A comprehensive list of all the features available in AGO"
 ---
+
+--------------------------------
+
 
 ## AI and Gameplay
 
@@ -49,7 +54,7 @@ title: "Features"
 
 ## Scripts
 
-### Ring Script
+### Overhauled Ring Script
 
 - Rewritten and re-imagined ring script focusing on making the War of the Ring focused on the Ring like it should be
 - Setup spy networks to find the location of the One Ring
@@ -61,7 +66,7 @@ title: "Features"
 - AI can also choose to hold onto the ring with lore accurate chances for each faction
 - For more information about the ring script, you can read it [here](https://discord.com/channels/759414542240972840/800365246522195988/800369046213623828)
 
-### Reforming Arnor
+### Reforming the Kingdom of Arnor
 
 In order to reform Arnor, you need to build the Cardolan/Arthedain administration buildings in at least 3 Cardolan and at least 3 Arthedain regions to unlock the ability to build the House of Kings in Annúminas.
 
@@ -91,6 +96,7 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 
 ## Visuals
 
+### Campaign and Battle Map
 - Brand new custom campaign map textures and models
 - New battlefield, grass and skybox textures courtesy of Swagger
 - 53 new strategy map models with many thanks to Slave_knight_Olexandrius. Some factions will also automatically get different strategy map models based on the sub-race of the general (example HE Sindar-Noldor, Rhun Daritai-Balchoth-Arulad)
@@ -102,67 +108,70 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 
 {{< gallery match="images/stratmap/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
-### Factions with New Visuals
-
-#### Dunedain
-
-- New visuals for early Rangers of the North roster
-- New strat models and battle models for Dunedain generals and captains, Aragorn and Halbarad by Krekbel
 
 
-{{< gallery match="images/rangers/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
-
-#### Dunland
+### Dunland
 
 - Complete roster overhaul by BillBaraka
 
 {{< gallery match="images/dunland/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
-#### Anduin
-
-- Skinchangers now transform into bears mid charge courtesy of BillBaraka
 
 
-{{< gallery match="images/anduin/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
-
-
-#### Dol Goldur
-
-- Goblin headhunters and spider hunters have a new poison arrow that releases deadly poison instead of just reducing morale
-
-
-{{< gallery match="images/dol_goldur/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
-
-
-#### Ar-Adunaim
-
-- Entire roster overhaul courtesy of Castellan
-
-{{< gallery match="images/adunaim/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
-
-
-#### Rhûn
+### Rhûn
 
 - Rhun Visual Overhaul with Arktos 'Empire of Rhûn' visuals
 
 {{< gallery match="images/rhun/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 
-#### Angmar
+### Ar-Adunaim
+
+- Entire roster overhaul courtesy of Castellan featuring new unit models, unit cards stats
+- Massively expanded the amount of units that get a unique look when recruited via Ar-Adunaim's conscription mechanic including new textures for Angmar, Harad and Rohan.
+
+{{< gallery match="images/adunaim/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+
+
+### Dunedain
+
+- New visuals for early Rangers of the North roster
+- New strat models and battle models for Dunedain generals and captains, Aragorn and Halbarad by Krekbel
+
+{{< gallery match="images/rangers/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+
+### Anduin
+
+- Skinchangers now transform into bears mid charge courtesy of BillBaraka
+
+
+{{< gallery match="images/anduin/*" sortOrder="asc" loadJQuery=true rowHeight="350" margins="5" thumbnailResizeOptions="1920x1080 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+
+### Angmar
 
 - New Barrow Wights courtesy of R3EAPER
 
 
 {{< gallery match="images/wights/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
-#### Rebels
+### Rebels
 
 - New Ruffians model by Lerynian
 - New, more lore friendly model for Sellswords by Lerynian
 - New 'Warg' unit comprised soley of wild wargs with no riders
-- New spider models including spider riders courtesy of BOTET
-- Rhun's units have a more realistic color courtesy of Arktos
 
-#### Moria
+{{< gallery match="images/rebels/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailHoverEffect="enlarge" thumbnailResizeOptions="1920x1080 q100 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
-- New portraits for moria starting generals by robert1872
+### Dol Goldur
+
+- Goblin headhunters and spider hunters have a new poison arrow that releases deadly poison instead of just reducing morale
+- New Spider models courtesty of BOTET
+
+{{< gallery match="images/dol_goldur/*" sortOrder="asc" loadJQuery=true rowHeight="100" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+
+
+### Moria
+
+- New portraits for Moria and Gundabad's starting generals by robert1872
+
+{{< gallery match="images/moria_portraits/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}

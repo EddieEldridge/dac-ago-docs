@@ -9,4 +9,10 @@ theme = ["hugo-shortcode-gallery"]
 [params]
   description = "A submod for Third Age: Total war - Divide and Conquer"
   longTitle = "Divde and Conquer: AI and Gameplay Overhaul"
-  dorwinionColor = "color: #ffb144;" 
+  dorwinionColor = "color: #ffb144;"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2

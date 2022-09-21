@@ -2,9 +2,14 @@
 title: "Changelog"
 ---
 
-For a full list of current features, see the features page.
+## Summary
 
-All changes documented here were made since the last release of AGO (2.1).
+**For a full list of current features, see the [features page](../features/).**
+
+**Note:** Many changes were made prior to the 23rd of July and aren't documented here.
+
+--------------------------------
+
 
 ### 23rd July, 2022
 #### Medik

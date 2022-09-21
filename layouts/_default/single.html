@@ -9,6 +9,14 @@
 
 
   <div class="content-body">
+
+    {{ if and (gt .WordCount 400 ) (.Params.toc) }}
+    <aside>
+      <h2 class="ToCHeader">Table of Contents</h2>
+        {{.TableOfContents}}
+    </aside>
+    {{ end }}
+
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
     {{.Content}}
   </div>
