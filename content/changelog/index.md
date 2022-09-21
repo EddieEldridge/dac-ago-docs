@@ -1,5 +1,6 @@
 ---
 title: "Changelog"
+description: "A list of all changes made to AGO V3 after 23rd of July"
 ---
 
 ## Summary

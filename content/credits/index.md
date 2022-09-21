@@ -1,5 +1,6 @@
 ---
 title: "Credits"
+description: "Credits for Divide and Conquer and AGO"
 ---
 
 ## Lead Developer

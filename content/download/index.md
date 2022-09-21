@@ -1,5 +1,6 @@
 ---
 title: "Download"
+description: "Download and install instructions for AGO"
 ---
 
 ## Download Links

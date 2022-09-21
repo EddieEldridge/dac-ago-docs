@@ -1,6 +1,7 @@
 ---
 title: "F.A.Q"
 toc: "true"
+description: "Frequently asked questions about AGO"
 ---
 
 --------------------------------
