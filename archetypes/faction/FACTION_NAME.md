@@ -19,4 +19,4 @@ subtitle: ""
 
 ### Gallery
 
-{{< gallery match="images/*" sortOrder="asc" loadJQuery=true rowHeight="400" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/*" sortOrder="asc" loadJQuery=true rowHeight="400" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}

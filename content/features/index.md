@@ -106,7 +106,7 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 - New LOTR themed 'Ringbearer' font for many menu items, where appropriate
 - Remastered UI menus for different cultures courtesy of Pythax
 
-{{< gallery match="images/stratmap/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/stratmap/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 
 
@@ -114,7 +114,7 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 
 - Complete roster overhaul by BillBaraka
 
-{{< gallery match="images/dunland/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/dunland/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 
 
@@ -122,15 +122,15 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 
 - Rhun Visual Overhaul with Arktos 'Empire of Rhûn' visuals
 
-{{< gallery match="images/rhun/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/rhun/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 
 ### Ar-Adunaim
 
 - Entire roster overhaul courtesy of Castellan featuring new unit models, unit cards stats
-- Massively expanded the amount of units that get a unique look when recruited via Ar-Adunaim's conscription mechanic including new textures for Angmar, Harad and Rohan.
+- Massively expanded the amount of units that get a unique look when recruited via Ar-Adunaim's conscription mechanic including new textures for Angmar, Harad and Rohan courtesty of Wick3d.
 
-{{< gallery match="images/adunaim/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/adunaim/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 
 ### Dunedain
@@ -138,7 +138,7 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 - New visuals for early Rangers of the North roster
 - New strat models and battle models for Dunedain generals and captains, Aragorn and Halbarad by Krekbel
 
-{{< gallery match="images/rangers/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/rangers/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 ### Anduin
 
@@ -152,7 +152,7 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 - New Barrow Wights courtesy of R3EAPER
 
 
-{{< gallery match="images/wights/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/wights/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 ### Rebels
 
@@ -167,11 +167,18 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 - Goblin headhunters and spider hunters have a new poison arrow that releases deadly poison instead of just reducing morale
 - New Spider models courtesty of BOTET
 
-{{< gallery match="images/dol_goldur/*" sortOrder="asc" loadJQuery=true rowHeight="100" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/dol_goldur/*" sortOrder="asc" loadJQuery=true rowHeight="100" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 
 ### Moria
 
 - New portraits for Moria and Gundabad's starting generals by robert1872
 
-{{< gallery match="images/moria_portraits/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/moria_portraits/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+
+## Audio
+
+- Completely overhauled, mastered and mixed soundtrack by El Monstero. This includes faction specific music for on the battle and strategy map as well as various other events in game such as initiating a battle, losing a general or ending the turn.
+
+<iframe width="500" height="500" src="https://www.youtube.com/embed/jiWrsjm2kBk" style="padding-left: 75px;" frameborder="0" allowfullscreen>
+</iframe>
