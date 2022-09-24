@@ -1,4 +1,4 @@
-baseURL = "https://divide-and-conquer.com/"
+baseURL = "https://www.divide-and-conquer-ago.com/"
 languageCode = 'en-us'
 title = "Divide and Conquer: AI and Gameplay Overhaul"
 theme = ["hugo-shortcode-gallery"]
