@@ -2,6 +2,7 @@ baseURL = "https://divide-and-conquer.com/"
 languageCode = 'en-us'
 title = "Divide and Conquer: AI and Gameplay Overhaul"
 theme = ["hugo-shortcode-gallery"]
+timeout="120s"
 
 [markup.goldmark.renderer]
   unsafe= true
