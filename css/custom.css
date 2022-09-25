@@ -237,6 +237,12 @@ a.sidebar-nav-item:focus {
 }
 
 
+/* Discord Embed */
+.discordEmbed {
+  width: 325px;
+  height: 50px;
+}
+
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
@@ -267,6 +273,13 @@ a.sidebar-nav-item:focus {
   list-style: none;
   text-align: center;
   padding: 0;
+}
+
+/* Code */
+code {
+  font-size: 20px;
+  color: #ffb245;
+  text-shadow: 2px 2px #000000;
 }
 
 /* Audio Player */
