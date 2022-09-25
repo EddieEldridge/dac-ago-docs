@@ -68,11 +68,23 @@ description: "A comprehensive list of all the features available in AGO"
 
 ### Reforming the Kingdom of Arnor
 
-In order to reform Arnor, you need to build the Cardolan/Arthedain administration buildings in at least 3 Cardolan and at least 3 Arthedain regions to unlock the ability to build the House of Kings in Annúminas.
+In order to reform Arnor, complete Aragorn's questline until you've completed the Imladris section, then you need to build the Cardolan/Arthedain administration buildings in at least 3 Cardolan and at least 3 Arthedain regions to unlock the ability to build the House of Kings in Annúminas.
 
 After building the House of Kings you will restore Arnor. This will unlock the ability to upgrade your units to better armour upgrades and unlock new units. Restoring Arnor is a requirement for the Reunited Kingdom now. Bree needs to not be under the influence of Saruman for Arnor to be restored.
 
 After restoring Arnor you can run **Arnor.bat** to change your action icons, banners and name.
+
+### Reforming the Reunited Kingdom
+
+In order to reunite the kingdoms of Arnor and Gondor, you first need to reform the Kingdom of Arnor, as described above. Then you need to travel to Dunharrow and complete the King of the Dead part of Aragorn's questline. Then travel to Minas Tirith and make sure it is not sieged or held by evil forces and in a few turns you will form the Reunited Kingdom.
+
+After restoring the Reunited Kingdom, you can run **Reunited.bat** to change your action icons, banners and name.
+
+<div class="download-embed-homepage">
+    <iframe allow="fullscreen;" frameborder="0" width="900" height="500"
+        src="https://www.youtube.com/embed/hjVQSSN2MRE">
+    </iframe>
+</div>
 
 ### Orc Raiding
 
@@ -93,6 +105,17 @@ If Saruman is defeated at Isengard he may head North and scour the Shire who wil
 ### Rohan Resurrection
 
 If Rohan falls and the faction is destroyed, if you retake Edoras you can bring them back from the ashes anew and re-instate the faction.
+
+### Hotseat Capabilities
+- The campaign script has been re-written to enable hotseat play out of the box
+- Using the Engine Overhaul Project, players can play hotseat battles online and transfer the results back to the hotseat campaign
+
+### Engine Overhaul Project Improvements
+- Generals can now replenish their bodyguard units completely
+- The number of ancillaries that a character can hold is now increased to 16 from 8
+- 'Legio' prefix has been replaced with 'Regiment'
+- Use **Ctrl+Z** to zoom out and get a more tactical view of the battle map
+- Use **Ctrl+Q** to enable the highlighting of all enemy and friendly units
 
 ## Visuals
 
