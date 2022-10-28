@@ -12,12 +12,18 @@ description: "Download and install instructions for AGO"
 
 ### Quickstart
 
+
 1. Install a clean copy of [Divide and Conquer 4.6](https://www.youtube.com/watch?v=jFcVSROpnXI)
 2. Make a copy of your `Divide_and_Conquer` folder located in `Medieval II Total War/mods`
 3. Rename it `Divide_and_Conquer_ago`
 4. Drag the **contents** of the `Medieval II Total War` folder in the downloaded zip archive into your own `Medieval II Total War`, replacing if prompted
 5. Navigate to **Medieval II Total War/mods/Divide_and_Conquer_ago** and double click the file `Full Cleaner.bat`
-6. Launch the game by double clicking `M2TWEOP GUI.exe` and clicking `Run Mod`
+
+<!-- ### Launching the game -->
+<!-- #### AGO V2 -->
+6. Launch the game by double clicking `DaC.bat`
+<!-- #### AGO V3
+6. Launch the game by double clicking `M2TWEOP GUI.exe` and clicking `Run Divide and Conquer: AGO` -->
 
 ### Video Tutorial
 <div class="download-embed">
