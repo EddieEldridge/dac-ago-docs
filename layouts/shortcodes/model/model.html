@@ -1,15 +1,23 @@
 <div id="info">
-  <input id="file-upload-input" type="file" name="files[]" multiple="" class="inputfile" />
+  <!-- <input id="file-upload-input" type="file" name="files[]" multiple="" class="inputfile" /> -->
   <select id="background-select">
-    <option class="Mordor" value="Mordor">Mordor</option>
-    <option class="Dorwinion" value="Dorwinion">Dorwinion</option>
-    <option class="Minas_Tirith" value="Minas Tirith">Minas Tirith</option>
-    <option class="Dunland" value="Dunland">Dunland</option>
+    <option class="background-select-content" id="Mordor" value="Mordor">Mordor</option>
+    <option class="background-select-content" id="Dorwinion" value="Dorwinion">Dorwinion</option>
+    <option class="background-select-content" id="Minas_Tirith" value="Minas Tirith">Minas Tirith</option>
+    <option class="background-select-content" id="Dunland" value="Dunland">Dunland</option>
+  </select>
+
+  <select id="model-select">
+    <option class="background-select-content" id="Orc" value="Orc">Orc Host</option>
+    <option class="background-select-content" id="Rebel" value="Ruffians">Ruffians</option>
+    <option class="background-select-content" id="Dunland" value="Wulfingir">Wulfingir</option>
+    <option class="background-select-content" id="Ar-Adunaim" value="Armsmen">Ar-Adunaim</option>
   </select>
 
   <script type="text/javascript" rel="javascript" src="{{ .Site.BaseURL }}js/three/three.js"></script>
   <script type="text/javascript" rel="javascript" src="{{ .Site.BaseURL }}js/three/ColladaLoader.js"></script>
   <script type="text/javascript" rel="javascript" src="{{ .Site.BaseURL }}js/three/OrbitControls.js"></script>
+  <script type="text/javascript" rel="javascript" src="{{ .Site.BaseURL }}js/three/DDSLoader.js"></script>
   <script type="text/javascript" rel="javascript" src="{{ .Site.BaseURL }}js/model.js"></script>
 
 </div>
