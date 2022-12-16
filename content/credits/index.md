@@ -66,7 +66,7 @@ For his reversing skills, scripting and extensive animation knowledge
 
 #### Leo
 
-For various battlemaps, especially Dol Goldur
+For various battlemaps, especially Dol Guldur
 
 #### Khamul Lord of the Easterlings
 

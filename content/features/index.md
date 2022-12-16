@@ -47,7 +47,7 @@ description: "A comprehensive list of all the features available in AGO"
 - Removed focus on capturing plaza, AI knows this as well and focuses on fighting you instead of defending/attacking plaza
 - AI now sits outside the range of towers until the gate is broken
 - Added functional spiders back into the mod that no longer cause crashing
-- New battle maps such as a brand new Dol Goldur map courtesy of Leo from TATW 4.2
+- New battle maps such as a brand new Dol Guldur map courtesy of Leo from TATW 4.2
 - AI will now use stakes and hero abilities
 - Underground cave battlemaps (custom tiles) in the mountain passes (created by WK)
 - New battlemaps for Orc City and Large Town
@@ -58,7 +58,7 @@ description: "A comprehensive list of all the features available in AGO"
 
 - Rewritten and re-imagined ring script focusing on making the War of the Ring focused on the Ring like it should be
 - Setup spy networks to find the location of the One Ring
-- If Sauron takes the ring, Mordor and Dol Goldur will merge and all evil factions will get a boost to their economy
+- If Sauron takes the ring, Mordor and Dol Guldur will merge and all evil factions will get a boost to their economy
 - Sauron is also now a force to be reckoned with if he finds the ring, raining fireballs from the sky and destroying tens of men with each swing of his mace
 - If the AI is attempting to destroy the ring, it will phsyically march to Mt. Doom with a huge army
 - AI can now destroy the ring and bring the ring to Sauron if not stopped
@@ -185,12 +185,12 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 
 {{< gallery match="images/rebels/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailHoverEffect="enlarge" thumbnailResizeOptions="1920x1080 q100 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
-### Dol Goldur
+### Dol Guldur
 
 - Goblin headhunters and spider hunters have a new poison arrow that releases deadly poison instead of just reducing morale
 - New Spider models courtesty of BOTET
 
-{{< gallery match="images/dol_goldur/*" sortOrder="asc" loadJQuery=true rowHeight="100" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/dol_guldur/*" sortOrder="asc" loadJQuery=true rowHeight="100" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 
 ### Moria
