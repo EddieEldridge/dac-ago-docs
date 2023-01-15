@@ -2,54 +2,52 @@ let windowHalfX = window.innerWidth / 2;
 let windowHalfY = window.innerHeight / 2;
 let controls;
 
-const ddsLoader = new THREE.DDSLoader();
+// const ddsLoader = new THREE.DDSLoader();
 const clock = new THREE.Clock();
 const manager = new THREE.LoadingManager();
 const textureLoader = new THREE.TextureLoader();
 const scene = new THREE.Scene();
 const renderer = new THREE.WebGLRenderer({ alpha: true });
-const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.01, 1000000);
+const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.01, 100);
 const loader = new THREE.ColladaLoader(manager);
-const debug = true;
+const spotLight = new THREE.SpotLight(0xcccccc, 4, 11, Math.PI / 10);
+const debug = false;
 
-let dae;
+let dae_model;
 let dae_path = "";
-let mainDDSPath = "";
-let attachDDSPath = ""
+let mainTexPath = "";
+let attachTexPath = ""
+
+let DEFAULT_BACKGROUND = "Mordor"
+let DEFAULT_MODEL = "Ruffians"
 
 init();
 
 // Set new dae, main texture and attachement texture paths
 function setModelPaths(model) {
   switch (model) {
-    case "Orc Host":
-      dae_path = "/models/orcs/AGO_BetterOrcs.dae";
-      mainDDSPath = "/models/orcs/ago_orcs.dds";
-      attachDDSPath = "/models/orcs/ago_orc_att.dds";
-      break;
-
     case "Ruffians":
-      dae_path = "/models/rebels/AGO_BetterOrcs.dae";
-      mainDDSPath = "test";
-      attachDDSPath = "test";
-
-      break;
-    case "Wulfingir":
-      dae_path = "/models/rebels/AGO_BetterOrcs.dae";
-      mainDDSPath = "/models/rebels/ago_orcs.dds";
-      attachDDSPath = "/models/rebels/ago_orc_att.dds";
+      dae_path = "/models/rebels/bandits.dae";
+      mainTexPath = "/models/rebels/bandits_attach_new.png";
+      attachTexPath = "/models/rebels/bandits_new.png";
       break;
 
-    case "Armsmen":
-      dae_path = "/models/rebels/AGO_BetterOrcs.dae";
-      mainDDSPath = "/models/rebels/ago_orcs.dds";
-      attachDDSPath = "/models/rebels/ago_orc_att.dds";
+    case "Ruffians_2":
+      dae_path = "/models/rebels/bandits_2.dae";
+      mainTexPath = "/models/rebels/bandits_attach_new.png";
+      attachTexPath = "/models/rebels/bandits_new.png";
+      break;
+
+    case "Ruffians_3":
+      dae_path = "/models/rebels/bandits_3.dae";
+      mainTexPath = "/models/rebels/bandits_attach_new.png";
+      attachTexPath = "/models/rebels/bandits_new.png";
       break;
 
     default:
       dae_path = "/models/orcs/AGO_BetterOrcs.dae";
-      mainDDSPath = "/models/orcs/ago_orcs.dds";
-      attachDDSPath = "/models/orcs/ago_orc_att.dds";
+      mainTexPath = "/models/orcs/ago_orcs.dds";
+      attachTexPath = "/models/orcs/ago_orc_att.dds";
       break;
   }
 }
@@ -59,17 +57,32 @@ function setBackgroundImage(image) {
   let backgroundUrl = ""
 
   switch (image) {
+    case "Black":
+      backgroundUrl = "https://i.imgur.com/0TVRt1M.png"
+      break;
     case "Mordor":
       backgroundUrl = "https://i.imgur.com/SIFCW0f.jpg"
       break;
     case "Dorwinion":
-      backgroundUrl = "https://i.imgur.com/B9KLpUw.jpg"
+      backgroundUrl = "https://www.divide-and-conquer-ago.com/factions/dorwinion/images/Dorwinion_1.jpg"
       break;
     case "Dunland":
       backgroundUrl = "https://i.imgur.com/P4QsUbx.jpg"
       break;
     case "Minas Tirith":
       backgroundUrl = "https://i.imgur.com/R3HJpyb.png"
+      break;
+    case "Ered Luin":
+      backgroundUrl = "https://i.imgur.com/B7ZRY4o.png"
+      break;
+    case "Umbar":
+      backgroundUrl = "https://i.imgur.com/K7RqYge.png"
+      break;
+    case "Bree":
+      backgroundUrl = "https://i.imgur.com/up3y3CO.jpg"
+      break;
+    case "Fangorn":
+      backgroundUrl = "https://i.imgur.com/Z0VQXEO.png"
       break;
     default:
       backgroundUrl = "https://i.imgur.com/SIFCW0f.jpg"
@@ -107,28 +120,53 @@ async function init() {
   });
 
   // Create the camera and position it
-  camera.position.set(-0.00632805627663537, 1.5, -2);
+  camera.position.set(0, 0.75, -1.75);
 
-  // Add some ambient lights
-  const ambientLight = new THREE.AmbientLight(0xcccccc, 1);
+  // Add some subtle ambient lighting
+  var ambiColor = "#0c0c0c";
+  var ambientLight = new THREE.AmbientLight(ambiColor, 4);
   scene.add(ambientLight);
-  camera.add(ambientLight);
+
+  // Create a DirectionalLight shining from infront
+  spotLight.position.set(1.5, 1, -5);
+  spotLight.target.position.set(0, 0, 0);
+  spotLight.castShadow = true;
+
+  //Set up shadow properties for the light
+  spotLight.shadow.mapSize.width = 512;
+  spotLight.shadow.mapSize.height = 512;
+  spotLight.shadow.camera.near = 1;
+  spotLight.shadow.camera.far = 500;
+
+  // const spotLightHelper = new THREE.SpotLightHelper( spotLight );
+  // scene.add( spotLightHelper );
+  scene.add(spotLight);
   scene.add(camera);
 
   // Create our WebGL Renderer
   renderer.setPixelRatio(10);
-  renderer.gammaFactor = 1.5;
+  renderer.gammaFactor = 1.2;
   renderer.outputEncoding = THREE.sRGBEncoding;
 
   // Add the background
-  setBackgroundImage("Mordor");
+  setBackgroundImage(DEFAULT_BACKGROUND);
 
   container.appendChild(renderer.domElement);
 
+  // Platform for the model
+  // var geo = new THREE.PlaneBufferGeometry(2, 2);
+  // const material = new THREE.MeshBasicMaterial( {color: "black", side: THREE.DoubleSide} );
+  // var plane = new THREE.Mesh(geo, material);
+  // scene.add(plane);
+  // plane.rotateX( - Math.PI / 2);
+
   // Add some basic controls
   controls = new THREE.OrbitControls(camera, renderer.domElement);
+  controls.zoomSpeed = 1;
 
-  loadModel("Orcs", false)
+  controls.target.set(-0.028694745714982827, 0.9263339873871705, 0.5385406654239135);
+
+  loadModel(DEFAULT_MODEL, false)
 };
 
 async function animate() {
@@ -149,43 +187,64 @@ async function loadModel(model, shouldReset) {
   // the scene and tidy things up
   if (shouldReset) {
     console.log('Removing model...');
-    disposeNode(dae)
-    scene.remove(dae);
+    disposeNode(dae_model)
+    scene.remove(dae_model);
   }
 
   // Loud our Collada model
   loader.load(dae_path, function (collada) {
     console.log('Loading model...');
 
-    dae = collada.scene;
+    // Collada DAE Model variable
+    dae_model = collada.scene;
+
+    // Animations
+    // let animations = collada.animations;
+    // console.log(animations)
+
+    // mixer = new THREE.AnimationMixer( dae_model ); // create global mixer
+    // mixer.clipAction( animations[ 0 ] ).play(); // play first animation clip
 
     // Setup transparency for the Alpha layer on our textures
-    mesh = scene.children[0].children[0].clone();
-
     collada.scene.traverse(function (child) {
+
+      // Loud our two textures (main and attach)
+      const mainTexture = textureLoader.load(mainTexPath);
+      const attachTexture = textureLoader.load(attachTexPath);
+
+      mainTexture.encoding = THREE.sRGBEncoding;
+      attachTexture.encoding = THREE.sRGBEncoding;
+
       if (child.material && child.isMesh) {
+        console.log('Alpha material detected, setting up transparency...');
         child.material.transparent = true;
         child.material.alphaTest = 0.5;
+        // child.castShadow = true;
+        // child.receiveShadow = true;
       }
     });
 
-    // Loud our two textures (main and attach)
-    const mainTexture = ddsLoader.load(mainDDSPath);
-    const attachTexture = ddsLoader.load(attachDDSPath);
+    scene.add(dae_model);
 
-    scene.add(dae);
+    // Camera Helper
+    // const helper = new THREE.CameraHelper( camera );
+    // scene.add( helper );
 
     // Debug Print
     if (debug == true) {
       console.info(collada);
-      console.info(mainTexture);
-      console.info(attachTexture);
+      // console.info(mainTexture);
+      // console.info(attachTexture);
       console.info(dae_path);
-      console.info(mainDDSPath);
-      console.info(attachDDSPath);
+      console.info(mainTexPath);
+      console.info(attachTexPath);
       console.info(renderer);
       console.info(scene);
       console.info(camera);
+
+      // Create a helper for the shadow camera (optional)
+      // const helper = new THREE.CameraHelper(spotLight.shadow.camera);
+      // scene.add(helper);
     }
     animate();
   });
