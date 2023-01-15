@@ -64,7 +64,6 @@ description: "A comprehensive list of all the features available in AGO"
 - AI can now destroy the ring and bring the ring to Sauron if not stopped
 - Hold onto the ring yourself for a massive boost to your treasury while facing the wrath of the rest of Middle-earth
 - AI can also choose to hold onto the ring with lore accurate chances for each faction
-- For more information about the ring script, you can read it [here](https://discord.com/channels/759414542240972840/800365246522195988/800369046213623828)
 
 ### Reforming the Kingdom of Arnor
 
@@ -81,7 +80,7 @@ In order to reunite the kingdoms of Arnor and Gondor, you first need to reform t
 After restoring the Reunited Kingdom, you can run **Reunited.bat** to change your action icons, banners and name.
 
 <div class="download-embed-homepage">
-    <iframe allow="fullscreen;" frameborder="0" width="900" height="500"
+    <iframe allow="fullscreen;" frameborder="0" width="1200" height="500"
         src="https://www.youtube.com/embed/hjVQSSN2MRE">
     </iframe>
 </div>
@@ -90,17 +89,23 @@ After restoring the Reunited Kingdom, you can run **Reunited.bat** to change you
 
 As an orc faction you can now stand on enemy territory to generate income, causing devastation (which is caused by standing on regions with farms built) which will keep increasing until it completes the cycle and resets, the trait description shows the amount of income being genearted from raiding.
 
+### Hardcore Mode
+
+Optional hardcore mode that disables auto-resolve and introduces a Supply system for armies campaigning in foreign territory.
+
 ### The Palantíri
 
-Depending on how many Palantiri you own, the fog of war is removed for a short amount of time at the start of every turn
+Depending on how many Palantiri you own, the fog of war is removed for a short amount of time at the start of every turn.
 
 ### Scouring of the Shire
 
-If Saruman is defeated at Isengard he may head North and scour the Shire who will fight against the Free Peoples until Hobbiton is liberated and the Hobbits freed
+If Saruman is defeated at Isengard he may head North and scour the Shire who will fight against the Free Peoples until Hobbiton is liberated and the Hobbits freed.
 
 ### Beacons of Gondor
 
-3 Rohan armies spawn over the course of your Gondor campaign as long as you keep Rohan above 5 regions and in control of Edoras. The opposite also true: 3 Gondor armies can spawn for Rohan as long as you keep Gondor above 12 regions and in control of Minas Tirith
+3 Rohan armies spawn over the course of your Gondor campaign as long as you keep Rohan above 5 regions and in control of Edoras.
+
+The opposite is also true: 3 Gondor armies can spawn for Rohan as long as you keep Gondor above 12 regions and in control of Minas Tirith.
 
 ### Rohan Resurrection
 
@@ -181,7 +186,7 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 
 - New Ruffians model by Lerynian
 - New, more lore friendly model for Sellswords by Lerynian
-- New 'Warg' unit comprised soley of wild wargs with no riders
+- New 'Warg Pack' unit comprised soley of wild wargs with no riders
 
 {{< gallery match="images/rebels/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailHoverEffect="enlarge" thumbnailResizeOptions="1920x1080 q100 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
@@ -193,11 +198,11 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 {{< gallery match="images/dol_goldur/*" sortOrder="asc" loadJQuery=true rowHeight="100" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 
-### Moria
+<!-- ### Moria
 
 - New portraits for Moria and Gundabad's starting generals by robert1872
 
-{{< gallery match="images/moria_portraits/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/moria_portraits/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}} -->
 
 ## Audio
 

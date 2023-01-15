@@ -456,9 +456,6 @@ body {
   width: 100%;
   text-align: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .canvas-container {
@@ -472,11 +469,34 @@ canvas {
   height: 100%;
 }
 
-#background-select, #model-select {
+#background-select {
+}
+
+#model-select {
+}
+
+#background-select, #model-select, #model-select-label, #background-select-label {
   background: #1b1a1a;
   color: #ffb044;
   width: 25vw;
   min-width: 160px;
   padding: 12px 16px;
   z-index: 1;
+}
+
+#model-select-label, #background-select-label {
+  background: #120b0097;
+  width: auto;
+  font-size: 16px;
+  padding-right: 1vw;
+  text-align: right;
+  font-weight: bold;
+}
+
+::selection {
+  background: #525252; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #525252; /* Gecko Browsers */
 }
