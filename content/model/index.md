@@ -1,6 +1,6 @@
 ---
-title: "Model Gallery"
+title: "Unit Gallery"
 toc: "true"
-description: "This is the model gallery"
+description: "View and examine the amazing 3D models from Divide and Conquer: AGO in realtime"
 ---
 {{< model/model >}}

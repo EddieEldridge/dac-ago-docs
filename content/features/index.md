@@ -1,7 +1,7 @@
 ---
 title: "Features"
 toc: true
-description: "A comprehensive list of all the features available in AGO"
+description: "A curated list of all the new features available in Divide and Conquer: AGO as well as screenshots and videos of the new visuals."
 ---
 
 --------------------------------
