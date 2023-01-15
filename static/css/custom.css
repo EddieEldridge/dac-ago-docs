@@ -484,6 +484,11 @@ canvas {
 #model-select {
 }
 
+
+#Unit\ Gallery, #Home {
+  overflow: hidden;
+}
+
 #background-select, #model-select, #model-select-label, #background-select-label {
   background: #1b1a1a;
   color: #ffb044;

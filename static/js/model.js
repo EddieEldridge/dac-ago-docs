@@ -8,7 +8,7 @@ const manager = new THREE.LoadingManager();
 const textureLoader = new THREE.TextureLoader();
 const scene = new THREE.Scene();
 const renderer = new THREE.WebGLRenderer({ alpha: true });
-const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.01, 100);
+const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.01, 100);
 const loader = new THREE.ColladaLoader(manager);
 const spotLight = new THREE.SpotLight(0xcccccc, 4, 11, Math.PI / 10);
 const debug = false;
@@ -120,7 +120,7 @@ async function init() {
   });
 
   // Create the camera and position it
-  camera.position.set(0, 0.75, -1.75);
+  camera.position.set(0, 0.88, -2.25);
 
   // Add some subtle ambient lighting
   var ambiColor = "#0c0c0c";

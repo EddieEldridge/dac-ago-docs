@@ -1,7 +1,6 @@
 {{ partial "head.html" . }}
   <body>
-    <div class="page-wrapper">
-        
+    <div class="page-wrapper" id="{{ .Title }}">
         {{/*  Sidebar  */}}
         {{ partial "sidebar.html" . }}
 
@@ -9,7 +8,7 @@
         <main class="content">
           {{ block "main" . -}}{{- end }}
         </main>
-  
+
       {{/*  {{ if not .Site.IsServer }}
         {{ template "_internal/google_analytics.html" . }}
       {{ end }}  */}}
