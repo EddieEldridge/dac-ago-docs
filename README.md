@@ -12,8 +12,8 @@
 ![](https://img.shields.io/github/issues/EddieEldridge/dac-ago-docs?style=for-the-badge)
 [![Build Status](https://img.shields.io/discord/759414542240972840?style=for-the-badge)](https://discord.gg/zygvJ64Q83)
 
-![Screenshot 2022-07-26 at 13 02 23](https://user-images.githubusercontent.com/22448079/181001975-d3730b6b-37fa-416f-a29f-4090dd2d31bf.png)
-
+![image](https://user-images.githubusercontent.com/22448079/212649056-c5a35817-0f3a-4ec7-97d3-e711c1e3a0f9.png)
+![image](https://user-images.githubusercontent.com/22448079/212649423-c0e433e1-8607-483e-862f-fef741b8e233.png)
 
 ## Build
 
