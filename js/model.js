@@ -44,6 +44,24 @@ function setModelPaths(model) {
       attachTexPath = "/models/rebels/bandits_new.png";
       break;
 
+    case "Oathband":
+      dae_path = "/models/dunland/oathband.dae";
+      mainTexPath = "/models/dunland/dunland_BG_alt.png";
+      attachTexPath = "/models/dunland/dunland_bg.png";
+      break;
+
+    case "Oathband_2":
+      dae_path = "/models/dunland/oathband_2.dae";
+      mainTexPath = "/models/dunland/dunland_BG_alt.png";
+      attachTexPath = "/models/dunland/dunland_bg.png";
+      break;
+
+    case "Oathband_3":
+      dae_path = "/models/dunland/oathband_3.dae";
+      mainTexPath = "/models/dunland/dunland_BG_alt.png";
+      attachTexPath = "/models/dunland/dunland_bg.png";
+      break;
+
     default:
       dae_path = "/models/orcs/AGO_BetterOrcs.dae";
       mainTexPath = "/models/orcs/ago_orcs.dds";
