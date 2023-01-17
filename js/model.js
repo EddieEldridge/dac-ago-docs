@@ -62,6 +62,18 @@ function setModelPaths(model) {
       attachTexPath = "/models/dunland/dunland_bg.png";
       break;
 
+    case "Huntmasters":
+      dae_path = "/models/dunland/huntmasters.dae";
+      mainTexPath = "/models/dunland/huntmasters.png";
+      attachTexPath = "/models/dunland/huntmasters_attach.png";
+      break;
+
+    case "Huntmasters_2":
+        dae_path = "/models/dunland/huntmasters_2.dae";
+        mainTexPath = "/models/dunland/huntmasters.png";
+        attachTexPath = "/models/dunland/huntmasters_attach.png";
+    break;
+
     default:
       dae_path = "/models/orcs/AGO_BetterOrcs.dae";
       mainTexPath = "/models/orcs/ago_orcs.dds";
@@ -146,7 +158,7 @@ async function init() {
   scene.add(ambientLight);
 
   // Create a DirectionalLight shining from infront
-  spotLight.position.set(1.5, 1, -5);
+  spotLight.position.set(1.5, 1, -6);
   spotLight.target.position.set(0, 0, 0);
   spotLight.castShadow = true;
 
@@ -270,45 +282,23 @@ async function loadModel(model, shouldReset) {
 
 
 // Dispose Nodes to free up memory
-function disposeNode(dae) {
-  dae.traverse(function (node) {
-    if (node instanceof THREE.Mesh) {
-      if (node.geometry) {
-        node.geometry.dispose();
-      }
-      if (node.material) {
-        var materialArray;
-        if (node.material) {
-          materialArray = node.material.materials;
-        }
-        else if (node.material instanceof Array) {
-          materialArray = node.material;
-        }
-        if (materialArray) {
-          materialArray.forEach(function (mtrl, idx) {
-            if (mtrl.map) mtrl.map.dispose();
-            if (mtrl.lightMap) mtrl.lightMap.dispose();
-            if (mtrl.bumpMap) mtrl.bumpMap.dispose();
-            if (mtrl.normalMap) mtrl.normalMap.dispose();
-            if (mtrl.specularMap) mtrl.specularMap.dispose();
-            if (mtrl.envMap) mtrl.envMap.dispose();
-            mtrl.dispose();
-          });
-        }
-        else {
-          if (node.material.map) node.material.map.dispose();
-          if (node.material.lightMap) node.material.lightMap.dispose();
-          if (node.material.bumpMap) node.material.bumpMap.dispose();
-          if (node.material.normalMap) node.material.normalMap.dispose();
-          if (node.material.specularMap) node.material.specularMap.dispose();
-          if (node.material.envMap) node.material.envMap.dispose();
-          node.material.dispose();
-        }
-      }
+disposeNode = (node, recursive = false) => {
+  if (!node) return;
+  if (recursive && node.children)
+    for (const child of node.children)
+      disposeNode(child, recursive);
+  node.geometry && node.geometry.dispose();
+  if (!node.material) return;
+  const materials = node.material.length === undefined ? [node.material] : node.material
+  for (const material of materials) {
+    for (const key in material) {
+      const value = material[key];
+      if (value && typeof value === 'object' && 'minFilter' in value)
+        value.dispose();
     }
-  });
+    material && material.dispose();
+  }
 }
-
 // function onKeyDown(e) {
 //   console.log(e);
 
