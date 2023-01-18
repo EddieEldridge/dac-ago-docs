@@ -83,6 +83,7 @@ function setModelPaths(model) {
 }
 
 // Change the background image
+// To-Do: Replace this with a Skybox as demonstrated in: https://r105.threejsfundamentals.org/threejs/lessons/threejs-backgrounds.html
 function setBackgroundImage(image) {
   let backgroundUrl = ""
 
