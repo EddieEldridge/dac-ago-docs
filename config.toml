@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = "Divide and Conquer: AI and Gameplay Overhaul"
 theme = ["hugo-shortcode-gallery"]
 timeout="120s"
+googleAnalytics = "G-XG0DKC8RXC"
 
 [markup.goldmark.renderer]
   unsafe= true
