@@ -486,7 +486,7 @@ canvas {
 
 
 #Unit\ Gallery, #Home {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 #background-select, #model-select, #model-select-label, #background-select-label {
