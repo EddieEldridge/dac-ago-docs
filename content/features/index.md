@@ -3,12 +3,8 @@ title: "Features"
 toc: true
 description: "A curated list of all the new features available in Divide and Conquer: AGO as well as screenshots and videos of the new visuals."
 ---
-
 --------------------------------
-
-
 ## AI and Gameplay
-
 ### **Campaign**
 
 - Completely overhauled campaign AI with a focus on different faction/culture specific behavior

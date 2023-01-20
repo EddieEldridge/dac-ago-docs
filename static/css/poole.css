@@ -1,4 +1,4 @@
-/* 
+/*
  *                        ___
  *                       /\_ \
  *  _____     ___     ___\//\ \      __
@@ -68,7 +68,7 @@ html {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #1474b9;
+  color: #dc7d00;
   text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
