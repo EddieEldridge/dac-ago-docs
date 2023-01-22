@@ -152,7 +152,7 @@ If Rohan falls and the faction is destroyed, if you retake Edoras you can bring 
 ### Ar-Adunaim
 
 - Entire roster overhaul courtesy of Castellan featuring new unit models, unit cards stats
-- Massively expanded the amount of units that get a unique look when recruited via Ar-Adunaim's conscription mechanic including new textures for Angmar, Harad and Rohan courtesty of Wick3d.
+- Massively expanded the amount of units that get a unique look when recruited via Ar-Adunaim's conscription mechanic including 11 new textures for Angmar, 5 for Harad and 6 for Rohan courtesty of Wick3d.
 
 {{< gallery match="images/adunaim/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="1920x1090 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 

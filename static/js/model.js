@@ -8,7 +8,7 @@ const manager = new THREE.LoadingManager();
 const textureLoader = new THREE.TextureLoader();
 const scene = new THREE.Scene();
 const renderer = new THREE.WebGLRenderer({ alpha: true });
-const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.01, 100);
+const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.01, 100);
 const loader = new THREE.ColladaLoader(manager);
 const spotLight = new THREE.SpotLight(0xcccccc, 4, 11, Math.PI / 10);
 const debug = false;
@@ -74,6 +74,24 @@ function setModelPaths(model) {
         attachTexPath = "/models/dunland/huntmasters_attach.png";
     break;
 
+    case "Grey_Company_1":
+        dae_path = "/models/dunedain/grey_company.dae";
+        mainTexPath = "/models/dunedain/ranger_elite.png";
+        attachTexPath = "/models/dunedain/grey_company_diff.png";
+    break;
+
+    case "Grey_Company_2":
+      dae_path = "/models/dunedain/grey_company_2.dae";
+      mainTexPath = "/models/dunedain/ranger_elite.png";
+      attachTexPath = "/models/dunedain/grey_company_diff.png";
+    break;
+
+    case "RK_Spearmen":
+      dae_path = "/models/rk/rk_spearmen.dae";
+      mainTexPath = "/models/dunedain/rk_da_banner.png";
+      attachTexPath = "/models/dunedain/soldiers_attachments_diff.png";
+    break;
+
     default:
       dae_path = "/models/orcs/AGO_BetterOrcs.dae";
       mainTexPath = "/models/orcs/ago_orcs.dds";
@@ -110,10 +128,10 @@ function setBackgroundImage(image) {
       backgroundUrl = "https://i.imgur.com/K7RqYge.png"
       break;
     case "Bree":
-      backgroundUrl = "https://i.imgur.com/up3y3CO.jpg"
+      backgroundUrl = "https://i.imgur.com/wFtaJE9.png"
       break;
     case "Fangorn":
-      backgroundUrl = "https://i.imgur.com/Z0VQXEO.png"
+      backgroundUrl = "https://i.imgur.com/O3Kir4f.png"
       break;
     default:
       backgroundUrl = "https://i.imgur.com/SIFCW0f.jpg"
@@ -122,7 +140,12 @@ function setBackgroundImage(image) {
 
   textureLoader.load(backgroundUrl, function (texture) {
     texture.encoding = THREE.sRGBEncoding;
-    scene.background = texture;
+    // scene.background = texture;
+
+    let skyboxMat = new THREE.MeshBasicMaterial({ map: texture, side: THREE.BackSide });
+    let skyboxGeo = new THREE.SphereGeometry( 50, 32, 16);
+    let skybox = new THREE.Mesh(skyboxGeo, skyboxMat);
+    scene.add(skybox);
   });
 }
 
@@ -194,8 +217,11 @@ async function init() {
   // Add some basic controls
   controls = new THREE.OrbitControls(camera, renderer.domElement);
   controls.zoomSpeed = 1;
+  controls.autoRotate = true;
+  controls.minDistance = 1.1;
+  controls.maxDistance = 3;
 
-  controls.target.set(-0.028694745714982827, 0.9263339873871705, 0.5385406654239135);
+  controls.target.set(0,0.8,0);
 
   loadModel(DEFAULT_MODEL, false)
 };
@@ -256,6 +282,9 @@ async function loadModel(model, shouldReset) {
     });
 
     scene.add(dae_model);
+    controls.autoRotateSpeed = 0.3;
+    controls.rotateSpeed = 0.5;
+    controls.dampingFactor = 0.3;
 
     // Camera Helper
     // const helper = new THREE.CameraHelper( camera );

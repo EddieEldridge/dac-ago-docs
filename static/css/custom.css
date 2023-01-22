@@ -7,7 +7,7 @@
 @media (min-width: 48em) {
   .content {
     /* position: flex; */
-    height: auto;
+    height: 97vh;
     min-width: 5rem;
     margin-left: 22rem;
   }
@@ -16,7 +16,7 @@
 .content {
   background-color: rgb(34, 34, 34);
   /* border: 20px solid #000000f8; */
-  height: 100vh;
+  /* height: 100%; */
 }
 
 .homepage-background {
@@ -43,7 +43,7 @@
 .content-header {
   font-family: 'Aniron', sans-serif;
   text-align: center;
-  font-size: 50px;
+  font-size: 42px;
   color: #ffb144;
   padding: 5px;
   padding-bottom: 10px;
@@ -65,9 +65,13 @@
   padding-right: 20px;
 }
 
+#info {
+  margin-left: 1.29vw;
+}
+
 .content-body {
   /* background-color: rgba(198, 171, 16, 0.104); */
-  height: auto;
+  /* height: auto; */
   padding-left: 25px;
   padding-right: 25px;
   color: white;
@@ -108,7 +112,7 @@
 /* Scrollbar */
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 15px;
   background: #3e3e3e;
 }
 
@@ -206,9 +210,11 @@ aside ul {
 
 /* Sidebar nav */
 .sidebar-nav {
+  margin-top: 30px;
   padding-left: 0;
   list-style: none;
   padding-top: 5px;
+  margin-bottom: 0px;
 }
 
 /* Sidebar Links */
@@ -351,7 +357,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 50px;
   font-family: 'Aniron', sans-serif;
 }
 
@@ -396,7 +401,7 @@ h6 {
 }
 
 .page-wrapper {
-  height: 100vh;
+  height: 72vh;
   /* width: 100vw; */
 }
 
@@ -406,7 +411,7 @@ h6 {
 }
 
 body {
-  height: 100vh;
+  height: 85vh;
   background-color: rgb(34, 34, 34);
 }
 
@@ -461,16 +466,14 @@ body {
 
 .canvas-container {
   align-content: center;
-  height: 75vh;
+  height: 72vh;
   padding: 10px;
   display: flex;
-
   background-color: rgb(0, 0, 0);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 15px;
   margin: 20px 20px;
   overflow: hidden;
-
 }
 canvas {
   width: 100%;
