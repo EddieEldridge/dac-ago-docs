@@ -55,11 +55,11 @@ Run FullCleaner.bat in the `Divide_and_Conquer_ago` folder
 The mod is known to cause issues with pirated copies of Medieval 2 and is likely to crash, do not ask for support if you have a pirated copy as I do not know or particularly care why it doesn't work.
 I have no idea how to fix it so you would just waste my time.
 
-Mod used to work but suddenly starts crashing at startup or loading any saves/battles:
+### Mod used to work but suddenly starts crashing at startup or loading any saves/battles
 Reinstall the engine overhaul from the link in download-mod, just unpack the files to your mod folder and overwrite.
 
-I just installed and when I try to start a campaign it throws me back to menu:
+### I just installed and when I try to start a campaign it throws me back to menu
 Make sure you have ran full cleaner.bat in your mod folder. If that doesn't work and you haven't installed **any** other submods or modified your files manually delete all the .bin files in data/text and map.rwm in data/world/maps/base.
 
-###   Other miscellaneous crashes
-Ask for support in questions-support and it would be helpful if you provide the log files for every crash you encounter, you can find the logs in medieval II total war/logs. Be aware that having under 4GB of RAM is not enough to run this mod. If you have 6GB or less and you crash as soon as you try to start a campaign try switching to old strat map textures, file is pinned in general. If you have a save which crashes consistently at a certain point upload the save. Make sure to mention if you use submods and contact the submod creators first.
+### Other miscellaneous crashes
+Ask for support in the Discord and it would be helpful if you provide the log files for every crash you encounter, you can find the logs in medieval II total war/logs. Be aware that having under 4GB of RAM is not enough to run this mod. If you have 6GB or less and you crash as soon as you try to start a campaign try switching to old strat map textures, file is pinned in #general in Discord. If you have a save which crashes consistently at a certain point upload the save. Make sure to mention if you use submods and contact the submod creators first.
