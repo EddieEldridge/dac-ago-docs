@@ -1,5 +1,6 @@
 ---
 title: "Divide and Conquer"
+description: "Main website and documentation for the Lord of the Rings mod 'Divide and Conquer: AI and Gameplay Overhaul'. Includes a 3D model viewer, screenshot gallery, download/install instructions and a full feature set page."
 ---
 
 ### What is Divide and Conquer: AGO?
