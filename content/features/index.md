@@ -70,8 +70,13 @@ After building the House of Kings you will restore Arnor. This will unlock the a
 After restoring Arnor you can run **Arnor.bat** to change your action icons, banners and name.
 
 ### Reforming the Reunited Kingdom
+The Reunited Kingdom can be formed by either the Dunedain or Gondor
 
-In order to reunite the kingdoms of Arnor and Gondor, you first need to reform the Kingdom of Arnor, as described above. Then you need to travel to Dunharrow and complete the King of the Dead part of Aragorn's questline. Then travel to Minas Tirith and make sure it is not sieged or held by evil forces and in a few turns you will form the Reunited Kingdom.
+#### Dunedain
+In order to reunite the kingdoms of Arnor and Gondor as the Dunedain, you first need to reform the Kingdom of Arnor, as described above. Then you need to travel to Dunharrow and complete the King of the Dead part of Aragorn's questline. Then travel to Minas Tirith and make sure it is not sieged or held by evil forces and in a few turns you will form the Reunited Kingdom.
+
+#### Gondor
+In order to reunite the kingdoms of Arnor and Gondor as Gondor, you need to wait until either Boromir or Faramir have a dream about travelling to Rivendell. Make sure you are allied to the Dunedain and still hold Minas Tirith.
 
 After restoring the Reunited Kingdom, you can run **Reunited.bat** to change your action icons, banners and name.
 
