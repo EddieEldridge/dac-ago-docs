@@ -100,6 +100,8 @@ function setModelPaths(model) {
   }
 }
 
+
+
 // Change the background image
 // To-Do: Replace this with a Skybox as demonstrated in: https://r105.threejsfundamentals.org/threejs/lessons/threejs-backgrounds.html
 function setBackgroundImage(image) {
@@ -162,6 +164,7 @@ async function init() {
   // Setup our Dropdown Event Listeners
   const backgroundSelect = document.getElementById('background-select');
   const modelSelect = document.getElementById('model-select');
+  const rotateButton = document.getElementById('toggleRotateButton');
 
   backgroundSelect.addEventListener('change', (e) => {
     console.log(`e.target.value = ${e.target.value}`);
@@ -172,6 +175,17 @@ async function init() {
     console.log(`e.target.value = ${e.target.value}`);
     loadModel(e.target.value, true)
   });
+
+  rotateButton.onclick = function toggleRotation() {
+    if (controls === null) { return }
+    let isRotating = controls?.autoRotate
+    if (isRotating) {
+      controls.autoRotate = false
+    } else {
+      controls.autoRotate = true
+    }
+  }
+
 
   // Create the camera and position it
   camera.position.set(0, 0.88, -2.25);
