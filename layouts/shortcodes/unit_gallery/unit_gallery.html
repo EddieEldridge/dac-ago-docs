@@ -5,41 +5,45 @@
   <script type="text/javascript" rel="javascript" src="{{ .Site.BaseURL }}js/three/DDSLoader.js"></script>
   <script type="text/javascript" rel="javascript" src="{{ .Site.BaseURL }}js/model.js"></script>
 
-  <div id="model-select-label">
-    Unit Model
-  </div>
-  <select id="model-select">
-    <optgroup label="Rebels">
-      <option class="background-select-content" id="Ruffians" value="Ruffians">Ruffians (1)</option>
-      <option class="background-select-content" id="Ruffians" value="Ruffians_2">Ruffians (2)</option>
-      <option class="background-select-content" id="Ruffians" value="Ruffians_3">Ruffians (3)</option>
-    </optgroup>
-    <optgroup label="Dunland">
-      <option class="background-select-content" id="Oathband" value="Oathband">Brehin's Oathband (1)</option>
-      <option class="background-select-content" id="Oathband" value="Oathband_2">Brehin's Oathband (2)</option>
-      <option class="background-select-content" id="Oathband" value="Oathband_3">Brehin's Oathband (3)</option>
-      <option class="background-select-content" id="Huntmasters" value="Huntmasters">Huntmasters (1)</option>
-      <option class="background-select-content" id="Huntmasters" value="Huntmasters_2">Huntmasters (2)</option>
-    </optgroup>
-    <optgroup label="Dunedain/Reunited Kingdom">
-      <option class="background-select-content" id="Grey_Company" value="Grey_Company_1">Grey Company (1)</option>
-      <option class="background-select-content" id="Grey_Company" value="Grey_Company_2">Grey Company (2)</option>
-      <option class="background-select-content" id="RK_Spearmen" value="RK_Spearmen">Dúnedain Guardsmen (Reunited)</option>
-    </optgroup>
-  </select>
+  <div id="controlsContainer">
+    <div id="model-select-label">
+      Unit Model
+    </div>
+    <select id="model-select">
+      <optgroup label="Rebels">
+        <option class="background-select-content" id="Ruffians" value="Ruffians">Ruffians (1)</option>
+        <option class="background-select-content" id="Ruffians" value="Ruffians_2">Ruffians (2)</option>
+        <option class="background-select-content" id="Ruffians" value="Ruffians_3">Ruffians (3)</option>
+      </optgroup>
+      <optgroup label="Dunland">
+        <option class="background-select-content" id="Oathband" value="Oathband">Brehin's Oathband (1)</option>
+        <option class="background-select-content" id="Oathband" value="Oathband_2">Brehin's Oathband (2)</option>
+        <option class="background-select-content" id="Oathband" value="Oathband_3">Brehin's Oathband (3)</option>
+        <option class="background-select-content" id="Huntmasters" value="Huntmasters">Huntmasters (1)</option>
+        <option class="background-select-content" id="Huntmasters" value="Huntmasters_2">Huntmasters (2)</option>
+      </optgroup>
+      <optgroup label="Dunedain/Reunited Kingdom">
+        <option class="background-select-content" id="Grey_Company" value="Grey_Company_1">Grey Company (1)</option>
+        <option class="background-select-content" id="Grey_Company" value="Grey_Company_2">Grey Company (2)</option>
+        <option class="background-select-content" id="RK_Spearmen" value="RK_Spearmen">Dúnedain Guardsmen (Reunited)
+        </option>
+      </optgroup>
+    </select>
 
-  <div id="background-select-label">
-    Background
-  </div>
-  <select id="background-select">
-    <option class="background-select-content" id="Mordor" value="Mordor">Mordor</option>
-    <option class="background-select-content" id="Dorwinion" value="Dorwinion">Dorwinion</option>
-    <option class="background-select-content" id="Minas_Tirith" value="Minas Tirith">Minas Tirith</option>
-    <option class="background-select-content" id="Dunland" value="Dunland">Dunland</option>
-    <option class="background-select-content" id="Ered Luin" value="Ered Luin">Ered Luin</option>
-    <option class="background-select-content" id="Umbar" value="Umbar">Umbar</option>
-    <option class="background-select-content" id="Bree" value="Bree">Bree</option>
-    <option class="background-select-content" id="Fangorn" value="Fangorn">Fangorn</option>
-    <option class="background-select-content" id="Black" value="Black">Black</option>
-  </select>
+    <div id="background-select-label">
+      Background
+    </div>
+    <select id="background-select">
+      <option class="background-select-content" id="Mordor" value="Mordor">Mordor</option>
+      <option class="background-select-content" id="Dorwinion" value="Dorwinion">Dorwinion</option>
+      <option class="background-select-content" id="Minas_Tirith" value="Minas Tirith">Minas Tirith</option>
+      <option class="background-select-content" id="Dunland" value="Dunland">Dunland</option>
+      <option class="background-select-content" id="Ered Luin" value="Ered Luin">Ered Luin</option>
+      <option class="background-select-content" id="Umbar" value="Umbar">Umbar</option>
+      <option class="background-select-content" id="Bree" value="Bree">Bree</option>
+      <option class="background-select-content" id="Fangorn" value="Fangorn">Fangorn</option>
+      <option class="background-select-content" id="Black" value="Black">Black</option>
+    </select>
+    <img id="toggleRotateButton" src="https://i.imgur.com/SjOWbFm.png" alt="Snow">
+</div>
 </div>
