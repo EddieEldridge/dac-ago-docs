@@ -108,6 +108,14 @@ For over 50 new strategy map models
 
 ----------------------------------
 
+## Website
+
+#### Medik
+
+I made the website :) If you want to contribute something to the website, please reach out to me on Discord `medik_` or open a PR here -> https://github.com/EddieEldridge/dac-ago-docs
+
+----------------------------------
+
 ## Special Thanks
 
 * GhostFire
