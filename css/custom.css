@@ -123,7 +123,7 @@ hr {
   border-width: 20px 10px 20px 20px;
   text-align: center;
   background-color: rgb(34, 34, 34);
-  text-shadow: 3px 3px #000000;
+  /* text-shadow: 3px 3px #000000; */
 }
 
 @media (min-width: 48em) {
@@ -163,7 +163,6 @@ hr {
   margin-top: 30px;
   padding-left: 0;
   list-style: none;
-  padding-top: 5px;
   margin-bottom: 0px;
 }
 
@@ -171,22 +170,26 @@ hr {
 .sidebar-nav-item {
   display: block;
 }
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
-}
+
 .sidebar-nav-item.active {
   font-weight: bold;
 }
 .sidebar-nav a {
   font-size: 48px;
-  color: #ffb144;
+  background-image: linear-gradient(180deg,#ffb144, #ffb144);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.sidebar-nav a:hover {
+  background-image: linear-gradient(180deg,#ffb144, #ff9500);
 }
 
 .sidebar-bottom {
   padding: 5px;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 0%;
   padding-bottom: 5%;
   font-style: italic;
   color: grey;
@@ -196,8 +199,10 @@ a.sidebar-nav-item:focus {
 
 /* Discord Embed */
 .discordEmbed {
-  width: 376px;
-  height: 50px;
+  padding-top: 5%;
+  width: 275px;
+  height: 40px;
+  filter: drop-shadow(10px 10px 4px #000000);
 }
 
 /* Sticky sidebar
@@ -354,7 +359,7 @@ h6 {
   height: 72vh;
 }
 
-.sidebar img {
+#agoIcon {
   border-radius: 50%;
   filter: drop-shadow(10px 10px 4px #000000);
 }
@@ -464,4 +469,77 @@ canvas {
 
 ::-moz-selection {
   background: #525252; /* Gecko Browsers */
+}
+
+/* Testimonials Bubbles */
+.text-center {
+  text-align: center;
+}
+/* .cf {
+  *zoom: 1;
+} */
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
+body .testimonials {
+  max-width: 80%px;
+  margin: 0 auto;
+}
+body .testimonials h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+body .testimonials .speechbubble {
+  background-color: #2b2b26;
+  color: #d8d8d8;
+  font-size: 22px;
+  line-height: 1.75;
+  padding: 15px 25px;
+  margin-bottom: 25px;
+  cursor: default;
+}
+body .testimonials .speechbubble:nth-child(2n) {
+  border-left: 5px solid;
+}
+body .testimonials .speechbubble:nth-child(2n):after {
+  content: '';
+  margin-top: -30px;
+  padding-top: 0px;
+  position: relative;
+  bottom: -45px;
+  left: 20px;
+  border-width: 30px 0 0 30px;
+  border-style: solid;
+  border-color: #ff950000 transparent;
+  display: block;
+  width: 0;
+}
+body .testimonials .speechbubble:nth-child(2n+1) {
+  border-left: 5px solid;
+}
+body .testimonials .speechbubble:nth-child(4n+1) {
+  border-color: #ff9500;
+}
+body .testimonials .speechbubble:nth-child(4n+2) {
+  border-color: #ffca44;
+}
+body .testimonials .speechbubble:nth-child(4n+3) {
+  border-color: #b66a00;
+}
+body .testimonials .speechbubble:nth-child(4n+4) {
+  border-color: #ff8750;
+}
+body .testimonials .speechbubble .username {
+  font-style: italic;
+}
+body .testimonials .speechbubble .username:before {
+  content: '- ';
 }
