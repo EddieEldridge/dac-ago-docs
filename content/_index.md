@@ -133,4 +133,15 @@ Crackers
 </div>
 </div>
 
+<div class="speechbubble">
+Playing a KD expedition campaign and I'm having an amazing time because of AGO.
+
+In particular, the recruitment rates feel like I'm relying on dwarves traveling to the spearhead I've made into the misty mountains. Every new unit feels desperately needed and smart use of the units I do have is the only thing keeping me alive.
+
+You've nailed the unique situation the KD found themselves in the movie and book. Surrounded by wealth but lacking the manpower needed to leverage it. 
+<div class="username">
+Noahqshark
+</div>
+</div>
+
 </div>
