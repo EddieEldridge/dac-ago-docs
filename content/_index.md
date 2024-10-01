@@ -8,11 +8,17 @@ Divide and Conquer: AGO, AGO or 'AI and Gameplay Overhaul' is a submod for the s
 
 From the desperate Dúnedain in the cold North to the Haradrim in the blazing South, AGO offers players a chance to control one of the many factions vying for control in Tolkien's Middle-earth during the period of the "War of the Ring".
 
+<div style="text-align: center" class="download-embed">
+    <iframe allow="fullscreen;" frameborder="0" width="500" height="500"
+    src="https://www.youtube.com/embed/6Q70-nGT_fw?si=mg9u2uP72md7npnv">
+    </iframe>
+</div>
+
 ### Submod Hierarchy
 ```
 Medieval II: Total War
 └───Third Age: Total War
-    └───Divide and Conquer
+    └───Divide and Conquer (4.6)
         └───AI and Gameplay Overhaul
 ```
 The latest version of the mod released was version **2.1** on the *27th of January 2022*. Version **3** is in the works and is already full of exciting new features such as an entire faction overhaul for Dorwinion, Dunland, Enedwaith, Moria as well as never before seen mechanics and scripts and AI changes created with EOP V2 as well as much, much more!
@@ -20,6 +26,13 @@ The latest version of the mod released was version **2.1** on the *27th of Janua
 <div class="testimonials">
 
 ### Testimonials
+
+<div class="speechbubble">
+ I have 1000s of hours on Divide and Conquer and I just discovered AGO last week! I just wanted to take the time to thank everyone working on the mod! It's quiet a master piece and i'm enjoying it a lot! Thank you guys a lot for the hard work!
+<div class="username">
+petitpoucet
+</div>
+</div>
 
 <div class="speechbubble">
 The level of dedication to this great game and modset, on top of the love for LOTR, I couldn't be happier I stumbled onto this project. I'm not sure I can go back to different versions of Third Age: Total War at this rate, it's AGO or bust moving forward for me. This mod is peak and we're spoiled rotten to have it. 
