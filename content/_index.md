@@ -6,7 +6,9 @@ description: "Main website and documentation for the Lord of the Rings mod 'Divi
 ### What is Divide and Conquer: AGO?
 Divide and Conquer: AGO, AGO or 'AI and Gameplay Overhaul' is a submod for the submod [Divide and Conquer](https://www.moddb.com/mods/divide-and-conquer) which itself is a submod of [Third Age: Total War](https://www.moddb.com/mods/third-age-total-war) which is a mod for the historical strategy game [Medieval II: Total War](https://store.steampowered.com/app/4700/Total_War_MEDIEVAL_II__Definitive_Edition/).
 
-From the desperate Dúnedain in the cold North to the Haradrim in the blazing South, AGO offers players a chance to control one of the many factions vying for control in Tolkien's Middle-earth during the period of the "War of the Ring".
+From the desperate Dúnedain in the cold North to the Haradrim in the blazing South, AGO offers players a chance to control one of the many factions vying for control in Tolkien's Middle-earth during the period of the "War of the Ring". The focus of the mod is providing players with an immersive and authentic experience in Tolkien's Middle-earth. 
+
+Examples of this include the inclusion of a wider variety of armour like mail and lamellar, special scripts like the Scouring of the Shire, the overhauled One Ring script and more aligned AI behaviour.
 
 <div style="text-align: center" class="download-embed">
     <iframe allow="fullscreen;" frameborder="0" width="500" height="500"
