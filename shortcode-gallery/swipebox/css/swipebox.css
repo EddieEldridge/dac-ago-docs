@@ -136,7 +136,7 @@ html.swipebox-html.swipebox-touch {
     text-align: left;
     content: "◇◇◇\A◈◇◇\A◇◈◇\A◇◇◈";
     animation: loader-spin4 1s steps(4) infinite;
-    color: #ff9500;
+    color: orange;
 }
 
 @keyframes loader-spin4  {to { transform: translateY( -6.0em); } }
