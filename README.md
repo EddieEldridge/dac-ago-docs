@@ -49,7 +49,7 @@ To add a new faction, simply run
 
  Feel free to get in touch!
 
-- Discord (**Medik#0001**)
+- Discord (**medik_**)
 - Email (**eddie.eldridge@hotmail.com**)
 
 ## Technologies
