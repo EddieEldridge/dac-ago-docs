@@ -59,7 +59,7 @@
   padding-left: 25px;
   padding-right: 25px;
   color: white;
-  text-shadow: 3px 3px #000000;
+  filter: drop-shadow(6px 4px 6px #000000);
   padding-bottom: 35px;
 }
 
@@ -180,6 +180,7 @@ hr {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  filter: drop-shadow(6px 4px 6px #000000);
 }
 
 .sidebar-nav a:hover {
@@ -299,6 +300,12 @@ iframe {
 .download-embed-homepage {
   text-align: center;
   width: 100%;
+}
+
+.previews-embed-homepage {
+  text-align: center;
+  width: 100%;
+  height: 100%
 }
 
 
@@ -464,7 +471,7 @@ canvas {
 }
 
 ::selection {
-  background: #525252; /* WebKit/Blink Browsers */
+  background: #e09734; /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
