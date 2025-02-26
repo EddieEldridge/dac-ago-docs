@@ -52,7 +52,7 @@
       {{ range $unitKey, $unitData := $filteredUnits }}
         <tr>
           <td>{{ if isset $unitData "LocalizedName" }}{{ $unitData.LocalizedName }}{{ else }}{{ $unitKey }}{{ end }}</td>
-          <td>{{ if isset $unitData "Descr" }}{{ $unitData.Descr }}{{ else }}N/A{{ end }}</td>
+          <td>{{ if isset $unitData "Descr" }}{{ $unitData.Descr | replaceRE "\\\\n" "<br>" | safeHTML }}{{ else }}N/A{{ end }}</td>
           <!-- <td>{{ if isset $unitData "Category" }}{{ $unitData.Category }}{{ else }}N/A{{ end }}</td> -->
           <!-- <td>{{ if isset $unitData "ClassType" }}{{ $unitData.ClassType }}{{ else }}N/A{{ end }}</td> -->
           <!-- <td>
