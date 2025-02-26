@@ -53,7 +53,11 @@
         <tr>
           <td>{{ if isset $unitData "LocalizedName" }}{{ $unitData.LocalizedName }}{{ else }}{{ $unitKey }}{{ end }}</td>
           <td>{{ if isset $unitData "Descr" }}{{ $unitData.Descr | replaceRE "\\\\n" "<br>" | safeHTML }}{{ else }}N/A{{ end }}</td>
-          <!-- <td>{{ if isset $unitData "Category" }}{{ $unitData.Category }}{{ else }}N/A{{ end }}</td> -->
+          <td>
+            {{ $imagePath := printf "/info_cards/%s_info.webp" $unitData.Dictionary | lower }}
+            <img src="{{ $imagePath | relURL }}" alt="{{ $unitData.Dictionary }} Info" class="unit-image">
+          </td>
+          
           <!-- <td>{{ if isset $unitData "ClassType" }}{{ $unitData.ClassType }}{{ else }}N/A{{ end }}</td> -->
           <!-- <td>
             {{ if and (isset $unitData "Attributes") (reflect.IsSlice $unitData.Attributes) (gt (len $unitData.Attributes) 0) }}
