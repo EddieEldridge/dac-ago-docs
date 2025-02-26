@@ -1,0 +1,75 @@
+{{ $file := $.Get 0 }}
+{{ $faction := $.Get 1 }}
+
+{{ if not $file }}
+  {{ errorf "The unit_filter shortcode requires a path to the JSON file in the data directory. See %s" .Position }}
+{{ end }}
+
+{{ if not $faction }}
+  {{ errorf "The unit_filter shortcode requires a second parameter specifying the faction name. See %s" .Position }}
+{{ end }}
+
+{{ $dataPath := split $file "/" }}
+{{ $data := .Site.Data }}
+
+{{ range $dataPath }}
+  {{ if isset $data . }}
+    {{ $data = index $data . }}
+  {{ else }}
+    {{ errorf "Could not find %s in data path %s. See %s" . $file $.Position }}
+  {{ end }}
+{{ end }}
+
+{{ $filteredUnits := dict }}
+
+{{ range $unitKey, $unitData := $data }}
+  {{ if and (isset $unitData "Ownership") (reflect.IsSlice $unitData.Ownership) }}
+    {{ $hasOwnership := false }}
+    {{ range $index, $owner := $unitData.Ownership }}
+      {{ if eq $owner $faction }}
+        {{ $hasOwnership = true }}
+      {{ end }}
+    {{ end }}
+    {{ if $hasOwnership }}
+      {{ $filteredUnits = merge $filteredUnits (dict $unitKey $unitData) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $filteredUnits) 0 }}
+  <h3>Units owned by {{ $faction }} ({{ len $filteredUnits }} found)</h3>
+  <table class="units-table">
+    <thead>
+      <tr>
+        <th>Unit Name</th>
+        <th>Description</th>
+        <!-- <th>Category</th> -->
+        <!-- <th>Class</th> -->
+        <!-- <th>Attributes</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      {{ range $unitKey, $unitData := $filteredUnits }}
+        <tr>
+          <td>{{ if isset $unitData "LocalizedName" }}{{ $unitData.LocalizedName }}{{ else }}{{ $unitKey }}{{ end }}</td>
+          <td>{{ if isset $unitData "Descr" }}{{ $unitData.Descr }}{{ else }}N/A{{ end }}</td>
+          <!-- <td>{{ if isset $unitData "Category" }}{{ $unitData.Category }}{{ else }}N/A{{ end }}</td> -->
+          <!-- <td>{{ if isset $unitData "ClassType" }}{{ $unitData.ClassType }}{{ else }}N/A{{ end }}</td> -->
+          <!-- <td>
+            {{ if and (isset $unitData "Attributes") (reflect.IsSlice $unitData.Attributes) (gt (len $unitData.Attributes) 0) }}
+              <ul class="attribute-list">
+                {{ range $unitData.Attributes }}
+                  <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            {{ else }}
+              None
+            {{ end }}
+          </td> -->
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
+{{ else }}
+  <div class="notice">No units found for faction "{{ $faction }}"</div>
+{{ end }}
