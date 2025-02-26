@@ -559,20 +559,50 @@ body .testimonials .speechbubble .username:before {
   content: '- ';
 }
 
+.unit-image img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -45px;
+}
+
+.unit-image {
+  width: 13vw;
+  height: 55vh;
+}
+
+.unit-info {
+  width: 35vw;
+  
+}
+
+.unit-desc {
+  margin-top: 0px;
+  font-size: medium;
+  border: #66481d;
+  box-shadow: inset 0 0 5px #66481d;
+  border-style: solid !important;
+  padding: 10px;
+}
+
 .units-table {
+  margin-bottom: 0px;
   width: 100%;
   border-collapse: collapse;
   margin: 1rem 0;
+  box-shadow: inset 0 0 5px #000000;
 }
 
 .units-table th, .units-table td {
   padding: 0.5rem;
-  border: 1px solid #ffb044;
-  text-align: left;
+  border: #66481d;
+  box-shadow: inset 0 0 5px #66481d;
+  border-style: solid !important;
+  padding: 10px;
 }
 
 .units-table th {
-  background-color: #540760;
+  background-color: #161615;
+  box-shadow: inset 0 0 5px #000000;
 }
 
 .attribute-list {
@@ -584,4 +614,18 @@ body .testimonials .speechbubble .username:before {
   padding: 1rem;
   background-color: #ffb044;
   border-left: 4px solid #ffb044;
+}
+
+.attribute-table {
+  width: 100%;
+}
+
+.attribute-table th {
+  text-align: left;
+  width: 30%;
+  padding-right: 10px;
+}
+
+.attribute-table td {
+  text-align: right;
 }
