@@ -558,3 +558,30 @@ body .testimonials .speechbubble .username {
 body .testimonials .speechbubble .username:before {
   content: '- ';
 }
+
+.units-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.units-table th, .units-table td {
+  padding: 0.5rem;
+  border: 1px solid #ffb044;
+  text-align: left;
+}
+
+.units-table th {
+  background-color: #540760;
+}
+
+.attribute-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.notice {
+  padding: 1rem;
+  background-color: #ffb044;
+  border-left: 4px solid #ffb044;
+}
