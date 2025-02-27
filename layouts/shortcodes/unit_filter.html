@@ -41,18 +41,12 @@
   {{ range $unitKey, $unitData := $filteredUnits }}
 
   <table id="{{ $unitKey }}" class="units-table">
-    <h3>
+    <h3 class="unit-title">
       <a id="#{{ $unitKey }}" href="#{{ $unitKey }}">
         {{ if isset $unitData "LocalizedName" }}{{ $unitData.LocalizedName }}{{ else }}{{ $unitKey }}
         {{ end }}
       </a>
     </h3>
-    <thead>
-      <tr>
-        <th>Image</th>
-        <th>Stats</th>
-      </tr>
-    </thead>
     <tbody>
         <tr>
           {{/*  Unit Image  */}}
@@ -66,7 +60,13 @@
   <table class="attribute-table">
     <tr>
       <th>Soldiers</th>
-      <td>{{ if isset $unitData "SoldierCount" }}{{ $unitData.SoldierCount }}{{ else }}N/A{{ end }}</td>
+      <td>
+        {{ if isset $unitData "SoldierCount" }}
+          {{ printf "%.0f" (mul $unitData.SoldierCount 2.5) }}
+        {{ else }}
+          N/A
+        {{ end }}
+      </td>
     </tr>
     <tr>
       <th>Attack</th>
@@ -82,9 +82,11 @@
     </tr>
     <tr>
       <th>Total Defense</th>
-      <td>{{ if and (isset $unitData "PriDefense") (isset $unitData "SecDefense") (isset $unitData "PriShield") }}
-            {{ $totalDef := add (add $unitData.PriDefense $unitData.SecDefense) $unitData.PriShield }}
-            {{ $totalDef }}
+      <td>{{ if and (isset $unitData "PriDefense") (isset $unitData "PriArmour") (isset $unitData "PriShield") }}
+        {{ $priDef := int $unitData.PriDefense }}
+        {{ $secDef := int $unitData.PriArmour }}
+        {{ $priShield := int $unitData.PriShield }}
+        {{ add (add $priDef $secDef) $priShield }}
           {{ else }}N/A{{ end }}
       </td>
     </tr>

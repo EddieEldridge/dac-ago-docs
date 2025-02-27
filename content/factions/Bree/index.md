@@ -39,7 +39,7 @@ Of course, if you ask a Bree-lander most of the above is just pointless chatter.
 
 ### Gallery
 
-{{< gallery match="images/*" sortOrder="asc" loadJQuery=true rowHeight="400" margins="5" thumbnailResizeOptions="960x540 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+{{< gallery match="images/*" sortOrder="asc" loadJQuery=true rowHeight="200" margins="5" thumbnailResizeOptions="960x540 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
 
 ### Units
 
