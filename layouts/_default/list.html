@@ -13,10 +13,11 @@
     <ul class="content-body-list">
       {{ range .Data.Pages -}}
         <li>
-          <strong>Note: </strong>The following page is a work in progress. This page will be updated more in detail when AGO V3 releases.
-          You can see an example of what a faction page will look like below.
-          <br>
-          <span><a class="list-item" href="{{ .Permalink }}">{{ .Title }}</a></span>
+          <table>
+            <tr>
+              <span><a class="list-item" href="{{ .Permalink }}">{{ .Title }}</a></span>
+            </tr>
+          </table>
         </li>
       {{- end }}
       </ul>
